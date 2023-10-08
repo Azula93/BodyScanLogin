@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/sass/style.css">
+
+
+    <title>Valoracion Nutricional</title>
+</head>
+
+<body>
+<main>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  bg-trasnparent fixed-top">
+        <div class="container">
+            <!-- LOGO -->
+          <a class="navbar-brand fs-4 nav-link linkInicio" href="/Pages/pagInicio.html">Body Scan</a>
+
+          <!-- TOGGLE Btn -->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- SideBar -->
+          <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+            <!-- Sidebar Header -->
+            <div class="offcanvas-header text-black border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!-- SideBar body -->
+            <div class="offcanvas-body d-flex flex-column p-4 p-lg-0">
+
+              <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+
+                <li class=" nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="/Pages/pagInicio.html"><i class="bi bi-house-door-fill"></i></a>
+                </li>
+
+                <li class=" nav-item mx-2">
+                  <a class="nav-link" href="/Pages/medidas.html">Antropometría</a>
+                </li>
+
+                <li class=" nav-item mx-2">
+                  <a class="nav-link" href="/Pages/valNutricional.html">Valoracion Nutricional</a>
+                </li>
+
+                  <li class=" nav-item mx-2">
+                    <a class="nav-link" href="/Pages/vo2max.html">Vo2Máx</a>
+                </li> 
+
+                <li class=" nav-item mx-2">
+                    <a class="nav-link" href="/Pages/blog.html">Blog</a>
+                </li> 
+
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!-- FIN NAVBAR -->
+
+    <section class="get-section">
+
+      <section class="get-section-definicion">
+        <h1 class="get-section-definicion-titulo">¿Qué es el GET?</h1>
+          <p class="get-section-definicion-parrafo"> El gasto energético total (GET) es la cantidad total de energía que una persona gasta en un día típico.
+          El GET es importante porque proporciona una idea de la cantidad de calorías que una persona necesita consumir
+           en un día para mantener su peso actual, perder peso o ganar peso, dependiendo de sus objetivos. 
+           El conocimiento del (GET) también es esencial para planificar dietas y programas de ejercicio adecuados para alcanzar metas de salud y estado  físico.</p>
+      </section>
+      
+      <section class="subtitle-get">
+        <h2 class="subtitle-get-h2">Calcula tu GET</h2>
+        <p class="subtitle-get-parrafo">Para calcular tu GET ingresa los siguientes datos:</p>
+      </section>
+      
+  
+      <section class="infoGet">
+
+        <p class="infoGet-texto"> <b> Selecciona tu Sexo:</b></p>
+
+        <section class="GetRadioBtn">
+       
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="genero" value="mujer">
+             <label class="Rbtn form-check-label"> Femenino </label>
+           </div>
+
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="genero" value="hombre">
+             <label class="Rbtn form-check-label"> Masculino</label>
+           </div>
+         </section>
+
+         <section class="inputsGet">
+          <!-- <p class="inputsGet-parrafo">Ingresa los siguientes datos:</p> -->
+
+           <div class="inputsGet-talla">
+             <label class="form-label " for="talla">Talla en Cm: </label>
+             <input class="form-control  form-control-lg " type="number" id="talla" placeholder="170cm"  min="2" maxlength="3" pattern="^[0-9]+"  oninput="limitarNumero(this, 3)"> 
+             <p id="errorMensajeTalla" style="color: crimson;"></p>
+         </div>
+
+         <div class="inputsGet-peso">
+           <label class="form-label" for="peso">Peso en Kg: </label>
+           <input class="form-control form-control-lg " type="number" id="peso" placeholder="60kg"  min="2" maxlength="2" pattern="^[0-9]+"  oninput="limitarNumero(this, 2)"> 
+           <p id="errorMensajePeso" style="color: crimson;"></p>
+       </div>
+
+        <div class="inputsGet-edad">
+         <label class="form-label" for="edad">Edad en años: </label>
+         <input class="form-control form-control-lg " type="number" id="edad" placeholder="25"  min="1" maxlength="2" pattern="^[0-9]+"  oninput="limitarNumero(this, 2)"> 
+         <p id="errorMensajeEdad" style="color: crimson;"></p>
+        </div>
+
+      </section>
+
+      <section class="factorActividad">
+        <h2 class="factorActividad-Title">Factor de la actividad Fisica</h2>
+
+        <section class="factorActividad-RadioBtn">
+
+          <p class="factorActividad-subtitle"> De las siguientes opciones elige cuantas veces por semana practicas deporte y/o actividad fisica</p>
+
+             <section class="factorActividad-btns">
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="factorActividad" value="Menos de 3 horas semanales">
+                <label class="Rbtn form-check-label">Menos de 3 horas semanales</label>
+              </div>
+
+             <div class="form-check"> 
+                <input class="form-check-input" type="radio" name="factorActividad" value="3 Horas semanales">
+                <label class="Rbtn form-check-label"> 3 Horas semanales</label>
+              </div>
+
+            <div class="form-check"> 
+              <input class="form-check-input" type="radio" name="factorActividad" value="6 Horas semanales"> 
+              <label class="Rbtn form-check-label">6 Horas semanales</label>
+            </div>
+  
+             <div class="form-check">
+              <input class="form-check-input" type="radio" name="factorActividad" value="4-5 horas Diarias">
+               <label class="Rbtn form-check-label">4-5 horas Diarias</label>
+             </div>
+
+           </section>
+          </section>
+      </section>
+
+      <section class="btnResultGet">
+          <button class="btn btn-dark px-3 py-3 mx-auto " type="button" id="mostrarSeleccion" onclick="calculoGet()">
+            Calcular GET
+          </button>
+        </section>
+
+      <section class="resultadoGet-section">
+           <span>
+              <p class="parrafoGet" ></p>
+              <p class="resultGet" id="opcionSeleccionada"></p>
+              <div class="numeroGet" id="resultadoGet"> </div>
+          </span> 
+      </section>
+    
+      </section>
+    </section>
+
+      <section class="Macro">
+      <section >
+        <h2 class="Macro-Title">Requerimiento de Macronutrientes Diario </h2>
+      </section>
+
+      <p class="Macro-parrafo"> Ahora que conoces tu GET podrás calcular tu requerimiento de macronutrientes diario en gramos, distribuidos en: 
+        carbohidratos, proteinas y grasas. <br>
+          Selecciona una de las siguientes opciones según sea tu caso:    
+      </p>
+
+      <section class="DeporteRadioBtn">
+
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="Deportista" value="Deportista">
+             <label class="Rbtn form-check-label">Deportista</label>
+           </div>
+
+           <div class="form-check">
+            <input class="form-check-input" type="radio" name="Deportista" value="No deportista">
+             <label class="Rbtn form-check-label">No deportista</label>
+           </div>
+         </section>
+
+      <section class="btnResultDeporte">
+        <button class="btnResultDeporte-calc btn btn-dark px-3 py-3 mx-auto btnResulReq" type="button" id="mostrarDeporte" onclick="macronutrientesDiarios()" >
+          Calcular Requerimiento
+      </button>
+
+      <section class="resultadoMacronut-section">
+        <span>
+           <p class="parrafoMacronut" >  </p>
+           <p class="resultMacronut" id="opcionSeleccionada"></p>
+           <div class="numeroMacronut" id="resultadoMacronut"> </div>
+       </span> 
+      </section>
+      </section>
+
+      <section class="dieta-section">
+      <p class="dieta-section-parrafo">En este 👉 <a class="link-dieta text-primary" href="/Pages/blog.html">LINK</a> podrás obtener mas información acerca de la dieta que debes seguir </p>
+      </section>
+      </section>
+
+     <!-- Botón "Volver arriba" -->
+      <section class="scroll"> 
+      <a id="scroll-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button">
+       <i class="bi bi-arrow-up-circle-fill"></i></a>
+      </section>
+
+    
+    <!-- Incio FOOTER -->
+    <footer class="footer bg-dark pt-5 pb-4">
+      <div class=" text-center text-md-start">
+        <div class="row text-center text-md-start">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">Nosotros</h5>
+            <hr class="mb-4 ">
+            <p class="text-white">
+              Nuestra misión en BodyScan es brindarte los datos que necesitas para mejorar tu salud y bienestar. Creemos en la importancia de entender tus medidas corporales para tomar decisiones informadas sobre tu estilo de vida y dieta. Nuestro equipo se dedica a ofrecerte una experiencia precisa y amigable para que puedas alcanzar tus metas de salud.
+
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">
+              Déjanos Ayudarte</h5>
+              <hr class="mb-4">
+              <p>
+                <a href="#" class="text-white">Tu cuenta</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Tus Ordenes</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Manejo de Cuenta</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Ayuda</a>
+              </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">
+              Contáctanos</h5>
+              <hr class="mb-4">
+              <p>
+                <a href="#" class="text-white">Nuestros Servicios</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Inscribete</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Manejo de Cuenta</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Ayuda</a>
+              </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold ">
+              Contáctanos</h5>
+              <hr class="mb-4">
+              <p class="text-white">
+                <li class="fas fa-home me-3 "></li>Cali,Colombia</p>
+
+              <p class="text-white">
+                <li class="fas fa-envelope me-3"></li>test@bodyscan.com
+              </p>
+
+              <p class="text-white">
+                <li class="fas fa-phone me-3"></li>+57 123 456 76
+              </p>
+              
+          </div>
+            <hr class="mb-4">
+
+            <div class="text-center mb-2 ">
+              <p>
+                Copyright Todos los derechos reservados
+                <a href="#">
+                  <strong class="text-primary">AzulaDev</strong>
+                </a>
+              </p>
+            </div>
+
+            <div class="text-center">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+
+
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- FIN FOOTER -->
+
+    
+  </main>
+    <script src="/JS/ValoracionNut.js"></script>
+    <script src="/JS/btnarriba.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap");
+.navbar {
+  background-color: #9dbb33;
+}
+
+.nav-link {
+  color: #424f15;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(253, 253, 252, 0.9);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+.titlePrincipal {
+  top: 94px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.ImcTitle {
+  font-weight: 600;
+  padding: 10px;
+}
+
+.datosImc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 62px;
+  left: 832px;
+  position: relative;
+}
+
+.imcCalculo {
+  position: relative;
+  top: 120px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.imcTexto {
+  -moz-columns: 3;
+  columns: 3;
+  width: 70%;
+  left: 327px;
+  position: relative;
+  line-height: 1.8;
+}
+
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  display: flex;
+  margin: 14px 0 0 78px;
+  border-style: none;
+  background-color: #001011;
+  border-radius: 15px;
+  padding: 10px;
+  color: #F9F5FF;
+}
+
+.talla-section {
+  padding: 10px;
+  font-weight: 600;
+}
+
+.peso-section {
+  padding: 10px;
+  font-weight: 600;
+}
+
+.resultadoImc-section {
+  display: flex;
+  top: 360px;
+  position: absolute;
+}
+
+.numeroImc {
+  left: 100px;
+  position: absolute;
+}
+
+.seccionRiegosImc {
+  position: relative;
+  top: 67px;
+}
+
+.IccCalculo {
+  position: relative;
+  top: 360px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.numeroIcc {
+  left: 100px;
+  position: absolute;
+}
+
+.IccTexto {
+  -moz-columns: 3;
+  columns: 3;
+  width: 70%;
+  left: 327px;
+  position: relative;
+  line-height: 1.8;
+}
+
+.datosIcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 62px;
+  left: 832px;
+  position: relative;
+}
+
+.IccTitle {
+  padding: 10px;
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+body {
+  background: #F9F5FF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Raleway", sans-serif;
+} 
+
+/*# sourceMappingURL=style.css.map */

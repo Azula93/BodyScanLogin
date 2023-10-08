@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/sass/style.css">
+
+    <title>Blog</title>
+</head>
+<body>
+    <main>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg  bg-trasnparent fixed-top">
+        <div class="container">
+            <!-- LOGO -->
+          <a class="navbar-brand fs-4 nav-link linkInicio" href="/Pages/pagInicio.html">Body Scan</a>
+
+          <!-- TOGGLE Btn -->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- SideBar -->
+          <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+            <!-- Sidebar Header -->
+            <div class="offcanvas-header text-black border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!-- SideBar body -->
+            <div class="offcanvas-body d-flex flex-column p-4 p-lg-0">
+
+              <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+
+                <li class=" nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="/Pages/pagInicio.html"><i class="bi bi-house-door-fill"></i></a>
+                </li>
+
+                <li class=" nav-item mx-2">
+                  <a class="nav-link" href="/Pages/medidas.html">Antropometría</a>
+                </li>
+
+                <li class=" nav-item mx-2">
+                  <a class="nav-link" href="/Pages/valNutricional.html">Valoracion Nutricional</a>
+                </li>
+
+                  <li class=" nav-item mx-2">
+                    <a class="nav-link" href="/Pages/vo2max.html">Vo2Máx</a>
+                </li>
+
+                <li class=" nav-item mx-2">
+                    <a class="nav-link" href="/Pages/blog.html">Blog</a>
+                </li> 
+
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- FIN NAVBAR -->
+
+        <section class="intro" id="introduccion">
+        <h2 class="intro-title">¿Qué es el plato saludable de la familia colombiana?</h2>
+        <p class="intro-parrafo">Es el ícono de las Guías alimentarias, que nos ayuda a recordar
+            los seis grupos de alimentos que debemos consumir durante el día
+            para elegir una alimentación variada y saludable.
+            Nuestro país ofrece una gran variedad de alimentos de estos seis
+            grupos, por ello debemos aprovechar esta riqueza y diversidad. 
+            </p>
+        </section>
+
+        <section class="GrAlimentos" id="grupos-de-alimentos">
+            <h2 class="GrAlimentos-title">Grupos de Alimentos</h2>
+            <img class="GrAlimentos-img" src="/assets/gruposAlimentos.png" alt="gruposalimentos">
+            <img  class="GrAlimentos-img" src="/assets/promoverAlimentacion.png" alt="gruposalimentos">
+        </section>
+
+        <section class="cita">
+          <blockquote cite="https://www.icbf.gov.co/system/files/cartilla_mi_plato_un_arcoiris_divertido_de_sabores.pdf">
+            <a href="https://www.icbf.gov.co/system/files/cartilla_mi_plato_un_arcoiris_divertido_de_sabores.pdf" target="_blank" rel="noopener noreferrer">
+              <cite>Imagenes Tomadas de cartilla mi plato un arcoiris divertido de sabores</cite>
+            </a>
+          </blockquote>
+        </section>
+
+        <section class="porciones" id="porciones-recomendadas">
+            <h2 class="porciones-title">Plato saludable de la Familia Colombiana</h2>
+            <p class="porciones-parrafo">El Plato saludable de la Familia Colombiana nos ayuda a elegir una alimentación variada.
+                Nos indica que en cada tiempo de comida, se deben incluir alimentos de todos los grupos
+                o su mayoría, en cantidades o porciones adecuadas. <br>
+                Por otra parte, los alimentos representados en el Plato saludable de la Familia Colombiana nos
+                invitan a comer más alimentos frescos y menos alimentos procesados industrialmente, ya
+                que estos pueden contener azúcares, sodio y grasa añadidos, que los hacen poco saludables.</p>
+
+                <img  class="porciones-img" src="/assets/platoSaludable.png" alt="platosaludable">
+
+                <section class="cita">
+                  <blockquote cite="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf">
+                    <a  href="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf" target="_blank" rel="noopener noreferrer">
+                      <cite>Tomado de Manual Facilitadores GABA</cite>
+                    </a>
+                  </blockquote>
+                </section>
+                
+
+                <img  class="porciones-img" src="/assets/porcionescarne.png" alt="platosaludable">
+
+                <section class="cita">
+                  <blockquote cite="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf">
+                    <a href="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf" target="_blank" rel="noopener noreferrer">
+                      <cite>Tomado de Manual Facilitadores GABA</cite>
+                    </a>
+                  </blockquote>
+                </section>
+               
+
+
+                <p class="porciones-p2">
+                  Recomendación de número de intercambios de alimentos por grupo de alimentos por grupo de edad por día
+                </p>
+
+                <img  class="porciones-img" src="/assets/gralimentoporedad.png" alt="platosaludable">
+                
+                <section class="cita">
+                  <blockquote cite="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf">
+                    <a href="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf" target="_blank" rel="noopener noreferrer">
+                      <cite>Fuente: Equipo académico del CTNGA, ICBF y FAO - 2013.</cite>
+                    </a>
+                  </blockquote>
+                </section>
+        </section>
+          <!-- Botón "Volver arriba" -->
+      <section class="scroll"> 
+        <a id="scroll-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button">
+         <i class="bi bi-arrow-up-circle-fill"></i></a>
+        </section>
+
+      <!-- Incio FOOTER -->
+      <footer class="footer bg-dark pt-5 pb-4">
+        <div class=" text-center text-md-start">
+          <div class="row text-center text-md-start">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold ">Nosotros</h5>
+              <hr class="mb-4 ">
+              <p class="text-white">
+                Nuestra misión en BodyScan es brindarte los datos que necesitas para mejorar tu salud y bienestar. Creemos en la importancia de entender tus medidas corporales para tomar decisiones informadas sobre tu estilo de vida y dieta. Nuestro equipo se dedica a ofrecerte una experiencia precisa y amigable para que puedas alcanzar tus metas de salud.
+              </p>
+            </div>
+  
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold ">
+                Déjanos Ayudarte</h5>
+                <hr class="mb-4">
+                <p>
+                  <a href="#" class="text-white">Tu cuenta</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Tus Ordenes</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Manejo de Cuenta</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Ayuda</a>
+                </p>
+            </div>
+  
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold ">
+                Contáctanos</h5>
+                <hr class="mb-4">
+                <p>
+                  <a href="#" class="text-white">Nuestros Servicios</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Inscribete</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Manejo de Cuenta</a>
+                </p>
+                <p>
+                  <a href="#" class="text-white">Ayuda</a>
+                </p>
+            </div>
+  
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold ">
+                Contáctanos</h5>
+                <hr class="mb-4">
+                <p class="text-white">
+                  <a href="#"><li class="fas fa-home me-3 "></li>Cali,Colombia</p></a>
+  
+                <p class="text-white">
+                 <a href="mailto:azuladev@gmail.com"> <li class="fas fa-envelope me-3"></li>test@bodyscan.com</a>
+                </p>
+  
+                <p class="text-white">
+                 <a href="tel:3183348608"> <li class="fas fa-phone me-3"></li>+57 123 456 76</a>
+                </p>
+                
+            </div>
+              <hr class="mb-4">
+  
+              <div class="text-center mb-2 ">
+                <p>
+                  Copyright Todos los derechos reservados
+                  <a href="#">
+                    <strong class="text-primary">AzulaDev</strong>
+                  </a>
+                </p>
+              </div>
+  
+              <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </li>
+  
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+  
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+  
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+  
+                </ul>
+  
+              </div>
+  
+          </div>
+  
+        </div>
+  
+      </footer>
+      <!-- FIN FOOTER -->
+    </main>
+    <script src="/JS/btnarriba.js"></script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/sass/style.css">
+
+    <title>BodyScan</title>
+</head>
+<body >
+  <main>
+
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  bg-trasnparent fixed-top">
+        <div class="container">
+            <!-- LOGO -->
+          <a class="navbar-brand fs-4 nav-link linkInicio" href="/Pages/pagInicio.html">Body Scan</a>
+
+          <!-- TOGGLE Btn -->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- SideBar -->
+          <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+            <!-- Sidebar Header -->
+            <div class="offcanvas-header text-black border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!-- SideBar body -->
+            <div class="offcanvas-body d-flex flex-column p-4 p-lg-0">
+
+              <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+
+                <li class=" nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="/Pages/pagInicio.html"><i class="bi bi-house-door-fill"></i></a>
+                </li>
+
+                <li class=" nav-item mx-2">
+                  <a class="nav-link" href="/Pages/medidas.html">Antropometría</a>
+              </li>
+
+                <li class=" nav-item mx-2">
+                  <a class="nav-link" href="/Pages/valNutricional.html">Valoracion Nutricional</a>
+                </li>
+
+                  <li class=" nav-item mx-2">
+                    <a class="nav-link" href="/Pages/vo2max.html">Vo2Máx</a>
+                </li> 
+
+                <li class=" nav-item mx-2">
+                    <a class="nav-link" href="/Pages/blog.html">Blog</a>
+                </li>
+                
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <!-- FIN NAVBAR -->
+
+<main>
+
+
+    <section class="imgPpal container d-flex justify-content-center align-items-center">
+      <img class=" img img-fluid img-title" src="/assets/logoSinFondo.png" alt="">
+    </section>
+
+
+    <!-- INICIO cards -->
+
+    <section class="informative-cards">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-lg-4 mb-4">
+            <div class="card mx-auto">
+              <div class="card-image">
+                <img class="card-image-1 img-fluid" src="/assets/img (7).svg" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Indices Antropometricos</h5>
+                <p class="card-text">Realiza la evaluación de los índices antropométricos básicos, como el IMC  y el ICC. 
+                  Estos índices te permitirán estimar tu estado de salud general, evaluar el riesgo cardiovascular y determinar tu peso ideal.
+                </p>
+                <a href="/Pages/medidas.html" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+              </div>
+            </div>
+          </div>
+        
+  
+          <div class="col-md-3 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img class="card-image-1 img-fluid" src="/assets/img(20).svg" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Valoración nutricional</h5>
+                <p class="card-text">Calcula tu tasa metabólica basal y determina tus necesidades nutricionales diarias de proteínas, carbohidratos, grasas y micronutrientes utilizando nuestra calculadora de calorias
+                </p>
+                <a href="/Pages/valNutricional.html" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img class="card-image-1 img-fluid" src="/assets/img(21).svg" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Vo2 Máximo</h5>
+                <p class="card-text">
+                  El VO2 máximo es la máxima cantidad de oxígeno que una persona puede utilizar durante el ejercicio intenso 
+                  y continuo, lo que refleja su capacidad aeróbica y resistencia física. <br>
+                  Calcula tu Vo2 Máximo y tus METS ! </p>
+                <a href="/Pages/vo2max.html" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="col-md-3 col-lg-4 mb-4">
+            <div class="card">
+              <div class="card-image">
+                <img class="card-image-1 img-fluid" src="/assets/img (4).svg" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Blog</h5>
+                <p class="card-text">Aprende cómo distribuir los alimentos en tu plato utilizando la guía nutricional del ICBF. 
+                  En esta guía, encontrarás los porcentajes recomendados por grupo alimenticio que debes incluir en tus comidas
+                </p>
+                <a href="/Pages/blog.html" class=" btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+    </section>
+    <!-- Fin cards -->
+
+    <!-- BOTON SUBIR -->
+    <section class="scroll"> 
+      <a id="scroll-to-top" href="#" class="btn btn-primary btn-lg back-to-top d-block d-lg-none" role="button">
+        <i class="bi bi-arrow-up-circle-fill"></i></a>
+    </section>
+  </main>
+
+    <!-- Incio FOOTER -->
+    <footer class="footer bg-dark pt-5 pb-4">
+      <div class=" text-center text-md-start">
+        <div class="row text-center text-md-start">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold ">Nosotros</h6>
+            <hr class="mb-4 ">
+            <p class="text-white">
+              Nuestra misión en BodyScan es brindarte los datos que necesitas para mejorar tu salud y bienestar. Creemos en la importancia de entender tus medidas corporales para tomar decisiones informadas sobre tu estilo de vida y dieta. Nuestro equipo se dedica a ofrecerte una experiencia precisa y amigable para que puedas alcanzar tus metas de salud.
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold ">
+              Déjanos Ayudarte</h6>
+              <hr class="mb-4">
+              <p>
+                <a href="#" class="text-white">Tu cuenta</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Tus Ordenes</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Manejo de Cuenta</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Ayuda</a>
+              </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold ">
+              Contáctanos</h6>
+              <hr class="mb-4">
+              <p>
+                <a href="#" class="text-white">Nuestros Servicios</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Inscribete</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Manejo de Cuenta</a>
+              </p>
+              <p>
+                <a href="#" class="text-white">Ayuda</a>
+              </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold ">
+              Contáctanos</h6>
+              <hr class="mb-4">
+              <p class="text-white">
+                <a href="#"><li class="fas fa-home me-3 "></li>Cali,Colombia</p></a>
+
+              <p class="text-white">
+               <a href="mailto:azuladev@gmail.com"> <li class="fas fa-envelope me-3"></li>test@bodyscan.com</a>
+              </p>
+
+              <p class="text-white">
+               <a href="tel:3183348608"> <li class="fas fa-phone me-3"></li>+57 123 456 76</a>
+              </p>
+              
+          </div>
+            <hr class="mb-4">
+
+            <div class="text-center mb-2 ">
+              <p>
+                Copyright Todos los derechos reservados
+                <a href="#">
+                  <strong class="text-primary">AzulaDev</strong>
+                </a>
+              </p>
+            </div>
+
+            <div class="text-center">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="#" class="text-dark">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- FIN FOOTER -->
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="/JS/btnarriba.js"></script>
+</body>
+
+</html>
