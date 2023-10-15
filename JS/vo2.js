@@ -1,9 +1,9 @@
-const Vo2Bad = "/assets/img(28).svg";
-const Vo2Regular = "/assets/img(30).svg";
-const Vo2Bueno = "/assets/img(22).svg";
-const Vo2MuyBueno = "/assets/img(29).svg";
-const Vo2Error = "/assets/img(27).svg";
-const Vo2imgthink = "/assets/img (10).svg";
+const Vo2Bad = "/login/assets/img(28).svg";
+const Vo2Regular = "/login/assets/img(30).svg";
+const Vo2Bueno = "/login/assets/img(22).svg";
+const Vo2MuyBueno = "/login/assets/img(29).svg";
+const Vo2Error = "/login/assets/img(27).svg";
+const Vo2imgthink = "/login/assets/img (10).svg";
 
 
 // funcion para limitar la cantidad de numeros ingresados en los inputs

@@ -1,6 +1,11 @@
 <?php
     // con este codigo se enlazan los datos de las paginas mencionadas 👇
     require_once("c:/wamp64/www/login/view/head/head.php");
+
+     // si hay un usuario logueado actualmete lo envia al panel de control
+     if(!empty($_SESSION['usuario'])){
+        header("Location:panel_control.php");
+    }
 ?>
 
     <div class="fondo-login">

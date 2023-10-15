@@ -20,9 +20,15 @@
                  return true;
             } catch (PDOException $e) {
                 return false;
-            }
+            } 
+        }
 
-            
+        // ESTA FUNCION obtiene el password almancenado en la DB
+        public function obtenerPassword($correo){
+            $statement = $this -> PDO -> prepare("SELECT password FROM usuarios WHERE correo = :correo");
+
+            $statement ->bindParam(":correo", $correo);
+            return ($statement -> execute()) ? $statement -> fetch()["password"] : false;
         }
     }
 

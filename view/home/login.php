@@ -1,6 +1,10 @@
 <?php
     // con este codigo se enlazan los datos de las paginas mencionadas 👇
     require_once("c:/wamp64/www/login/view/head/head.php");
+    // si hay un usuario logueado actualmete lo envia al panel de control
+    if(!empty($_SESSION['usuario'])){
+        header("Location:panel_control.php");
+    }
 ?>
 
     <div class="fondo-login">
@@ -26,6 +30,13 @@
                 </div>
              <input type="password" name="password" class="form-control inputs" id="password">
            </div>
+
+              <!-- MUESTRA LOS MENSAJES DE ERROR POR PANTALLA -->
+           <?php if(!empty($_GET['error'])): ?>
+                <div id="alertError" style="margin:auto;" class="alert alert-danger mb-2" role="alert">
+                <?= !empty($_GET['error']) ? $_GET['error'] : ""   ?>
+                </div>
+             <?php endif; ?>
 
             <button type="submit" class="btn btn-primary btnLogin">Inicia Sesión</button>
   

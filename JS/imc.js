@@ -11,10 +11,10 @@ function limitarNumero(input, maxLength) {
   };
 
 // imagenes que se muestran en el resultado
-const imclow = "/assets/img(26).svg";
-const imcOK = "/assets/img(22).svg";
-const imcBad = "/assets/img(24).svg";
-const imcError = "/assets/img(27).svg";
+const imclow =    '/login/assets/img(26).svg';
+const imcOK =     '/login/assets/img(22).svg';
+const imcBad =    '/login/assets/img(24).svg';
+const imcError =  '/login/assets/img(27).svg';
 
 
 const calculoImc = () =>{
@@ -34,7 +34,7 @@ const calculoImc = () =>{
     switch (true) {
 
       case formulaImc < 18.5:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como:<p class="textoImcResult text-warning"> <b>BAJO PESO</b></p> <img class="imclow" src="${imclow}" alt="ImagenOK">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como:<p class="textoImcResult text-warning"> <b>BAJO PESO</b></p> <img class="imclow" src="${imclow}" alt="imclow">`;
         break;
         
       case formulaImc  >= 18.5 && formulaImc <= 24.9:
@@ -42,23 +42,23 @@ const calculoImc = () =>{
         break;
         
       case formulaImc  >= 25 && formulaImc <= 29.9:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-warning"><b>SOBREPESO</b></p> <img class="imcBad" src="${imcBad}" alt="ImagenOK">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-warning"><b>SOBREPESO</b></p> <img class="imcBad" src="${imcBad}" alt="imcBad">`;
         break;
 
       case formulaImc  >= 30 && formulaImc <= 34.9:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como:<p class="textoImcResult text-danger"> <b>OBESIDAD GRADO I</b> </p><img class="imcBad" src="${imcBad}" alt="ImagenOK">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como:<p class="textoImcResult text-danger"> <b>OBESIDAD GRADO I</b> </p><img class="imcBad" src="${imcBad}" alt="imcBad">`;
         break;
         
       case formulaImc  >= 35 && formulaImc <= 39.9:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-danger"><b>OBESIDAD GRADO II</b></p> <img class="imcBad" src="${imcBad}" alt="ImagenOK">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-danger"><b>OBESIDAD GRADO II</b></p> <img class="imcBad" src="${imcBad}" alt="imcBad">`;
         break;
   
       case formulaImc  >= 40:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-danger"> <b> OBESIDAD GRADO III</b></p> <img class="imcBad" src="${imcBad}" alt="ImagenOK">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-danger"> <b> OBESIDAD GRADO III</b></p> <img class="imcBad" src="${imcBad}" alt="imcBad">`;
         break;
 
       default:
-        resultadoImc = `<p class="errorImc text-danger"><b>ERROR! <br> Ingresa los datos de manera correcta (talla en metros: 1.70 y peso en kg: 60)</br></p> <img class="imcError" src="${imcError}" alt="ImagenOK">`
+        resultadoImc = `<p class="errorImc text-danger"><b>ERROR! <br> Ingresa los datos de manera correcta (talla en metros: 1.70 y peso en kg: 60)</br></p> <img class="imcError" src="${imcError}" alt="imcError">`
         
 }
 

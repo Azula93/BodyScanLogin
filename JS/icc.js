@@ -10,11 +10,11 @@ function limitarNumero(input, maxLength) {
   };
 
   // trae las imagenes que se muestran en el resultado final
-  const imagenMujerOk = '/assets/img(22).svg';
-  const imagenMujerbad = '/assets/img(24).svg';
-  const imagenHombreOk = '/assets/img(23).svg';
-  const imagenHombreBad = '/assets/img(25).svg';
-  const iccimgError = "/assets/img(27).svg";
+  const imagenMujerOk =   '/login/assets/img(22).svg';
+  const imagenMujerbad =  '/login/assets/img(24).svg';
+  const imagenHombreOk =  '/login/assets/img(23).svg';
+  const imagenHombreBad = '/login/assets/img(25).svg';
+  const iccimgError =     '/login/assets/img(27).svg';
 
 //   Tomando el dato ingresado en el input
 const calculoIcc = () =>{

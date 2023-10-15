@@ -35,6 +35,14 @@
             return password_hash($password,PASSWORD_DEFAULT);
         }
 
+        // FUNCION PARA VERIFICAR EL USUARIO, verifica que los datos ingresados sean iguales a los de la DB
+        public function verificarUsuario($correo, $contraseña){
+            // como no se puede o no se debe tener acceso directo a las contraseñas de los usuarios se obtiene el hash(la clave encriptada) a traves del correo
+            $keydb = $this -> MODEL -> obtenerPassword($correo);
+            // aqui verifica si la contraseña ingresada es igual a la que esta en la DB
+            return (password_verify($contraseña, $keydb)) ? true : false;
+        }
+
     }
 
 

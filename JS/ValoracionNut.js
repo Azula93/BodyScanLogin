@@ -1,4 +1,5 @@
-const getResultImg = '/assets/img(31).svg';
+const getResultImg = '/login/assets/img(31).svg';
+
 // funcion para limitar la cantidad de numeros ingresados en los inputs
 function limitarNumero(input, maxLength) {
   if (input.value.length > maxLength) {
@@ -150,7 +151,7 @@ function calculoGet ()  {
 
 };
 
-const imgMacro = '/assets/img(20).svg'
+const imgMacro = '/login/assets/img(20).svg'
 
 
 // Funcion para calcular los macronutientes en Gramos
