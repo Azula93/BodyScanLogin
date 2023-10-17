@@ -3,7 +3,7 @@
         private $MODEL;
         public function __construct()
         {
-            require_once("c:/wamp64/www/login/model/homeModel.php");
+            require_once("c://wamp64/www/login/model/homeModel.php");
             $this -> MODEL = new homeModel();
         }
 

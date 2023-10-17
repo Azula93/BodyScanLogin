@@ -18,7 +18,7 @@
             Crea una cuenta en BodyScan
         </div>
 
-        <form action="store.php" method="POST" class="col-3 login" autocomplete ="off" >
+        <form action="store.php" method="post" class="col-3 login" autocomplete ="off" >
            <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
                 <input type="email" name="correo" value ="<?= (!empty($_GET['correo'])) ? $_GET['correo'] : "" ?>" class="form-control inputs" id="exampleInputEmail1" aria-describedby="emailHelp">

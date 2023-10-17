@@ -154,6 +154,7 @@
     </section>
 
     <script src="/login/JS/vo2.js"></script>
+    
 
 <?php
     // con este codigo se enlazan los datos de las paginas mencionadas 👇

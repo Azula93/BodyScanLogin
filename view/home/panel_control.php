@@ -7,7 +7,7 @@
 ?>
 <!-- ESTA PAGINA PUEDE CAMBIAR OS E PUEDE PONER EL CONTENIDO PDE L APAGINA DE INICIO PARA QUE SEA LA PRIMERA PAGINA QUE SE VEA CUANDO LA PERSONA INICIA SESION 
 Y EN LUGAR DE DAR LA BIENVENIDA CON EL CORREO AGREGAR UN CAMPO "USERNAME" O NOMBRE Y DAR LA BIEVENIDA CON EL NOMBRE DE LA PERSONA -->
-    <h1 class="text-center mt-4 welcomeTitle">Bienvenido <?= $_SESSION['usuario'] ?></h1>
+    <h1 class="text-center mt-4 imgPpal welcomeTitle">Bienvenido <?= $_SESSION['usuario'] ?></h1>
 
     <main>
         <!-- <section class="imgPpal container d-flex justify-content-center align-items-center">

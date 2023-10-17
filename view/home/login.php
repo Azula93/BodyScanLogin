@@ -1,10 +1,13 @@
 <?php
     // con este codigo se enlazan los datos de las paginas mencionadas 👇
     require_once("c:/wamp64/www/login/view/head/head.php");
+
     // si hay un usuario logueado actualmete lo envia al panel de control
     if(!empty($_SESSION['usuario'])){
         header("Location:panel_control.php");
     }
+
+    
 ?>
 
     <div class="fondo-login">
@@ -17,7 +20,7 @@
             Inicia Sesión en BodyScan
         </div>
 
-        <form action="verificar.php" method="POST" class="col-3 login" autocomplete ="off" >
+        <form action="verificar.php" method="post" class="col-3 login" autocomplete ="off" >
            <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
                 <input type="email" name="correo" class="form-control inputs" id="exampleInputEmail1" aria-describedby="emailHelp">

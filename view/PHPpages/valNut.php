@@ -155,6 +155,7 @@
     </main>
     <script src="/login/JS/ValoracionNut.js"></script>
     <script type="module" src="/login/JS/btnarriba.js"></script>
+    
 
     <?php
       // con este codigo se enlazan los datos de las paginas mencionadas 👇
