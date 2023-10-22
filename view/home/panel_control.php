@@ -1,5 +1,5 @@
 <?php
-    require_once("c:/wamp64/www/login/view/head/header.php");
+    require_once("c://wamp64/www/login/view/head/header.php");
      // si hay un usuario logueado actualmete lo envia al panel de control
      if(empty($_SESSION['usuario'])){
         header("Location:login.php");
@@ -94,5 +94,5 @@ Y EN LUGAR DE DAR LA BIENVENIDA CON EL CORREO AGREGAR UN CAMPO "USERNAME" O NOMB
     </section>
 
 <?php
-    require_once("c:/wamp64/www/login/view/head/footer.php");
+    require_once("c://wamp64/www/login/view/head/footer.php");
 ?>
