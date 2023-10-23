@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+  .about {
+    background-image: url(/login/assets/background.svg);
+    margin: 18px;
+    padding: 20px;
+  }
+  .about_title {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-weight: 600;
+  }
+}/*# sourceMappingURL=aboutus.css.map */

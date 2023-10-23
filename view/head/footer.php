@@ -7,22 +7,38 @@
       <div class=" text-center text-md-start">
         <div class="row text-center text-md-start">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold ">Nosotros</h6>
+            <h6 class="text-uppercase mb-4 font-weight-bold ">Body Scan</h6>
             <hr class="mb-4 ">
             <p class="text-white">
-              Nuestra misión en BodyScan es brindarte los datos que necesitas para mejorar tu salud y bienestar. Creemos en la importancia de entender tus medidas corporales para tomar decisiones informadas sobre tu estilo de vida y dieta. Nuestro equipo se dedica a ofrecerte una experiencia precisa y amigable para que puedas alcanzar tus metas de salud.
+              Nuestra misión es brindarte los datos que necesitas para mejorar tu salud y bienestar. Creemos en la importancia de entender tus medidas corporales para tomar decisiones informadas sobre tu estilo de vida y dieta. Nuestro equipo se dedica a ofrecerte una experiencia precisa y amigable para que puedas alcanzar tus metas de salud.
             </p>
           </div>
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold ">
-              Déjanos Ayudarte</h6>
+              Navegación</h6>
               <hr class="mb-4">
               <p>
-                <a href="#" class="text-white">Tu cuenta</a>
+                <a href="/login/view/home/login.php" class="text-white">Tu cuenta</a>
               </p>
               <p>
-                <a href="#" class="text-white">Tus Ordenes</a>
+                <a href="/login/view/PHPpages/blog.php" class="text-white">Blog</a>
+              </p>
+              <p>
+                <a href="/login/view/PHPpages/medidas.php" class="text-white">Medidas Antropometricas</a>
+              </p>
+              
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold ">
+              Acerca de nosotros</h6>
+              <hr class="mb-4">
+              <p>
+                <a href="/login/view/PHPpages/aboutUs.php" class="text-white">¿Quienes somos?</a>
+              </p>
+              <p>
+                <a href="/login/view/PHPpages/politica_privacidad.php" class="text-white">Politica de privacidad</a>
               </p>
               <p>
                 <a href="#" class="text-white">Manejo de Cuenta</a>
@@ -36,33 +52,15 @@
             <h6 class="text-uppercase mb-4 font-weight-bold ">
               Contáctanos</h6>
               <hr class="mb-4">
-              <p>
-                <a href="#" class="text-white">Nuestros Servicios</a>
-              </p>
-              <p>
-                <a href="#" class="text-white">Inscribete</a>
-              </p>
-              <p>
-                <a href="#" class="text-white">Manejo de Cuenta</a>
-              </p>
-              <p>
-                <a href="#" class="text-white">Ayuda</a>
-              </p>
-          </div>
-
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold ">
-              Contáctanos</h6>
-              <hr class="mb-4">
               <p class="text-white">
-                <a href="#"><li class="fas fa-home me-3 "></li>Cali,Colombia</p></a>
+                <a href="#"><li class="fas fa-home me-3 "></li>Cali - Colombia</p></a>
 
               <p class="text-white">
-               <a href="mailto:azuladev@gmail.com"> <li class="fas fa-envelope me-3"></li>test@bodyscan.com</a>
+               <a href="mailto:azuladev@gmail.com"> <li class="fas fa-envelope me-3"></li>info@bodyscan.com</a>
               </p>
 
               <p class="text-white">
-               <a href="tel:3183348608"> <li class="fas fa-phone me-3"></li>+57 123 456 76</a>
+               <a href="tel:3183348608"> <li class="fas fa-phone me-3"></li>Llamanos!</a>
               </p>
               
           </div>
