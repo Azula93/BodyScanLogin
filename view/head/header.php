@@ -5,7 +5,7 @@
 ?>
 
    <!-- este codigo php sirve para hacer el cambio del navbar segun el usuario es decir esta primera vista es para usuarios que 
-            NO estan logueados, pueden ver el boton de iniciar sesion y   registrarse -->
+            NO estan logueados, pueden ver el boton de iniciar sesion y registrarse -->
             <?php if(empty($_SESSION['usuario'])) : ?>
 
 <!-- Navbar -->

@@ -648,8 +648,8 @@ a:hover {
 }
 .back-to-top {
   position: fixed;
-  bottom: 20px; /* Ajusta esta propiedad para la posición vertical deseada */
-  right: 20px; /* Ajusta esta propiedad para la posición horizontal deseada */
+  bottom: 20px;
+  right: 20px;
   z-index: 9999;
   border-radius: 50%;
 }
@@ -1887,15 +1887,95 @@ body {
 
 @media (max-width: 576px) {
   .about {
-    background-image: url(/login/assets/background.svg);
-    margin: 18px;
-    padding: 20px;
+    background-image: url(/login/assets/BG-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3.25rem;
+    color: #FFFFF0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+    padding-bottom: 15.625rem;
   }
   .about-title {
     position: relative;
-    top: 80px;
+    top: 3.5rem;
+    padding: 0.5rem;
     text-align: center;
+    font-weight: 800;
+  }
+  .about-historia {
+    position: relative;
+    top: 3.75rem;
+  }
+  .about_historia-parrafo, .about_trayectoria-parrafo, .about_mision-parrafo, .about_vision-parrafo, .about_final-parrafo {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .about_historia-titulo, .about_trayectoria-titulo, .about_mision-titulo, .about_vision-titulo {
     font-weight: 600;
+  }
+  .about_trayectoria, .about_mision, .about_vision, .about_final {
+    position: relative;
+    top: 5.5rem;
+  }
+}
+@media (max-width: 1920px) {
+  .about {
+    background-image: url(/login/assets/BG-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3.25rem;
+    color: #FFFFF0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+    padding-bottom: 15.625rem;
+  }
+  .about-title {
+    position: relative;
+    top: 3.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 800;
+  }
+  .about-historia {
+    position: relative;
+    top: 8.75rem;
+  }
+  .about_historia-parrafo, .about_trayectoria-parrafo, .about_mision-parrafo, .about_vision-parrafo, .about_final-parrafo {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 22px;
+  }
+  .about_historia-parrafo {
+    position: relative;
+    left: 470px;
+    top: 16px;
+  }
+  .about_historia-titulo, .about_trayectoria-titulo, .about_mision-titulo, .about_vision-titulo {
+    font-weight: 600;
+    position: relative;
+    top: -33px;
+    font-size: 40px;
+  }
+  .about_historia-imgsect {
+    position: relative;
+    left: 322px;
+  }
+  .about_trayectoria, .about_mision, .about_vision, .about_final {
+    position: relative;
+    top: 5.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .politica {
+    padding: 10px;
+    margin: 10px;
   }
 }
 * {
