@@ -1,5 +1,6 @@
 <?php
 
+
     class homeModel{
         private $PDO;
         public function __construct(){
@@ -8,11 +9,14 @@
             $this ->PDO = $pdo ->conexion();
         }
         // funcion para agregar un nuevo usuario
-        public function agregarNuevoUsuario($correo, $password){
+        public function agregarNuevoUsuario($nombreUsuario,$correo, $password){
             // sentencia de sql para agregar el usuario a la DB
-            $statement = $this->PDO->prepare("INSERT INTO usuarios values(null,:correo,:password)");
+            $statement = $this->PDO->prepare("INSERT INTO usuarios (nombreUsuario, correo, password) VALUES (:nombreUsuario, :correo, :password)");
+            // $statement = $this->PDO->prepare("INSERT INTO usuarios values(null, :nombreUsuario, :correo, :password)");
+            $statement ->bindParam(":nombreUsuario", $nombreUsuario);
             $statement ->bindParam(":correo", $correo);
             $statement ->bindParam(":password", $password);
+            
 
             // este try catch hace que se muestre el error del correo duplicado en caso de que se quiera ingresar el mismo correo dos veces
             try {

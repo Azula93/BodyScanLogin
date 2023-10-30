@@ -1,19 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap");
 .boton {
-  color: white;
-  border: 1px solid white;
-  margin-left: 15px;
   text-decoration: none;
-  padding: 6px 8px;
-  border-radius: 8px;
   transition: 0.2s;
-  position: relative;
-  left: 80px;
-}
-.boton:hover {
-  border: 1px solid #424f15;
-  color: #001011;
 }
 
 .navbar {
@@ -31,8 +20,7 @@
 @media (max-width: 991px) {
   .sidebar {
     background-color: rgba(253, 253, 252, 0.9);
-    -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 }
 .ImcCalculo-subtitle {
@@ -286,8 +274,7 @@
     margin: 39px 0px 190px 0px;
   }
   .resultadoIcc-section {
-    -moz-column-count: 3;
-         column-count: 3;
+    column-count: 3;
     position: relative;
     bottom: 644px;
     margin: 10px;
@@ -737,8 +724,7 @@ a:hover {
     left: 90px;
   }
   .resultadoGet-section {
-    -moz-columns: 3;
-         columns: 3;
+    columns: 3;
     display: flex;
     position: relative;
     bottom: 825px;
@@ -1048,8 +1034,7 @@ a:hover {
 }
 
 ul {
-  -moz-column-count: 2;
-       column-count: 2;
+  column-count: 2;
   text-align: initial;
 }
 
@@ -1401,8 +1386,7 @@ a {
     left: 120px;
   }
   .indicaciones-section-ul2 {
-    -moz-columns: 2;
-         columns: 2;
+    columns: 2;
     padding: 40px;
     font-size: 24px;
     position: relative;
@@ -1774,7 +1758,7 @@ body {
   }
   .redirect {
     position: relative;
-    bottom: 1.875rem;
+    bottom: 20rem;
     margin: auto;
     border: 1px solid gray;
     padding: 1.25rem;
@@ -1978,6 +1962,46 @@ body {
     margin: 10px;
   }
 }
+@media (max-width: 1920px) {
+  .navigation-img {
+    width: 2.5rem;
+    cursor: pointer;
+  }
+  .dropdown-menu-lg {
+    height: 11.25rem;
+    columns: 1;
+    min-width: 18rem;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .dropdown-menu-header {
+    background: #add833;
+    border-radius: 10px 10px 0 0;
+  }
+  .img-dropdown {
+    width: 2.5rem;
+    display: flex;
+  }
+  .dropdown-menu-username {
+    font-weight: 600;
+  }
+  .dropdown-menu-section {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    right: -1.75rem;
+  }
+  .bi-activity::before {
+    position: relative;
+    left: 1.875rem;
+  }
+  .bi-door-closed-fill::before {
+    position: relative;
+    left: 0.875rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -1998,4 +2022,4 @@ body {
 
 html {
   height: 100%;
-}/*# sourceMappingURL=style.css.map */
+}

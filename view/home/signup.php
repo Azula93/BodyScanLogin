@@ -1,8 +1,10 @@
 <?php
+
+
     // con este codigo se enlazan los datos de las paginas mencionadas 👇
     require_once("c:/wamp64/www/login/view/head/head.php");
 
-     // si hay un usuario logueado actualmete lo envia al panel de control
+     // si hay un usuario logueado actualmete lo envia al panel de control, osea inicia sesion
      if(!empty($_SESSION['usuario'])){
         header("Location:panel_control.php");
     }
@@ -18,7 +20,14 @@
             Crea una cuenta en BodyScan
         </div>
 
-        <form action="store.php" method="post" class="col-3 login" autocomplete ="off" >
+        <form action="store.php" method="POST" class="col-3 login" autocomplete ="off" >
+
+            <div class="mb-3">
+                <label for="nombreUsuario" class="form-label">Nombre Completo</label>
+                <!-- El "VALUE" hace que si el usuario envia el formulario con campos vacios los datos queden guardas en el campo asi se refresque la pag -->
+                <input type="text" name="nombreUsuario" value ="<?= (!empty($_GET['nombreUsuario'])) ? $_GET['nombreUsuario'] : "" ?>" class="form-control inputs" id="nombreUsuario" >
+            </div>
+
            <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
                 <input type="email" name="correo" value ="<?= (!empty($_GET['correo'])) ? $_GET['correo'] : "" ?>" class="form-control inputs" id="exampleInputEmail1" aria-describedby="emailHelp">

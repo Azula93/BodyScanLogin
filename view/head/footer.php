@@ -27,6 +27,14 @@
               <p>
                 <a href="/login/view/PHPpages/medidas.php" class="text-white">Medidas Antropometricas</a>
               </p>
+
+              <p>
+                <a href="/login/view/PHPpages/valNut.php" class="text-white">Valoración Nutricional</a>
+              </p>
+
+              <p>
+                <a href="/login/view/PHPpages/vo2max.php" class="text-white">Vo2Máx</a>
+              </p>
               
           </div>
 
@@ -78,25 +86,25 @@
             <div class="text-center">
               <ul class="list-unstyled list-inline">
                 <li class="list-inline-item">
-                  <a href="#" class="text-dark">
+                  <a href="#" class="text-light">
                     <i class="fab fa-facebook"></i>
                   </a>
                 </li>
 
                 <li class="list-inline-item">
-                  <a href="#" class="text-dark">
+                  <a href="#" class="text-light">
                     <i class="fab fa-instagram"></i>
                   </a>
                 </li>
 
                 <li class="list-inline-item">
-                  <a href="#" class="text-dark">
+                  <a href="#" class="text-light">
                     <i class="fab fa-youtube"></i>
                   </a>
                 </li>
 
                 <li class="list-inline-item">
-                  <a href="#" class="text-dark">
+                  <a href="#" class="text-light">
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
@@ -113,11 +121,10 @@
     <!-- FIN FOOTER -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="/login/JS/main.js"></script>
-    
-    <!-- <script src="/login/JS/btnarriba.js"></script>
-    <script src="/login/JS/icc.js"></script>
     <script src="/login/JS/imc.js"></script>
-    <script src="/login/JS/valnutri.js"></script>
-    <script src="/login/JS/vo2.js"></script> -->
+    <script src="/login/JS/icc.js"></script>
+    <script src="/login/JS/btnarriba.js"></script>
+    <script src="/login/JS/ValoracionNut.js"></script>
+    <script src="/login/JS/vo2.js"></script>
   </body>
 </html>

@@ -1,6 +1,7 @@
 <?php
     // con este codigo se enlazan los datos de las paginas mencionadas 👇
-    require_once("c://wamp64/www/login/view/head/head.php");
+    require_once("c:/wamp64/www/login/view/head/head.php");
+    
     
 ?>
 
@@ -108,9 +109,37 @@
                                   <li class=" nav-item mx-2">
                                       <a class="nav-link" href="/login/view/PHPpages/blog.php">Blog</a>
                                   </li> 
+
                                   <li class=" nav-item mx-2">
-                                  <a class=" boton" href="/login/view/home/logout.php">Cerrar Sesión</a>
-                                  </li>
+                                     
+                                     <div class="dropdown">
+                                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          <img class="img-fluid navigation-img" data-toggle="dropdown" aria-expanded="false" src="/login/assets/profile.png" alt="profile-img">
+                                        </a>
+                                                  
+                                        <ul class="dropdown-menu dropdown-menu-lg">
+                                          <li class="dropdown-menu-header">
+                                            <a class="dropdown-item " href="#"><img class="img-dropdown float-lg-left" src="/login/assets/profile.png" alt=""><span class="dropdown-menu-username">Azula</span></a>
+                                          </li>
+
+                                          <li >
+                                            <a class="dropdown-item dropdown-menu-section" href="#">Mis datos <i class="bi bi-activity float-lg-left "></i></a>
+                                            
+                                          </li>
+                                          
+                                          <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+
+                                          <li class=" nav-item mx-2 ">
+                                            <a class=" boton dropdown-menu-section" href="/login/view/home/logout.php">Cerrar Sesión <i class="bi bi-door-closed-fill float-lg-left mr-5"></i></a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                     
+                                    </li> 
+
+                                  <!-- <li class=" nav-item mx-2">
+                                    <a class=" boton" href="/login/view/home/logout.php">Cerrar Sesión</a>
+                                  </li> -->
 
                                 </ul>
                               </div>

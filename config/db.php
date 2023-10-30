@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
     // CONEXION A LA DB
 
@@ -11,10 +13,10 @@
         // se capturan los datos de la DB
         public function conexion(){
             try {
-                $PDO = new PDO("mysql:host=".$this->host.";dbname=".    $this->dbname, $this->user, $this->password);
+                $PDO = new PDO("mysql:host=".$this->host.";dbname=".$this->dbname,$this->user,$this->password);
                 return $PDO;
             } catch (PDOException $e) {
-                return $e->getMessage();
+                throw new Exception("Error al conectar a la base de datos: " . $e->getMessage());
             }
         }
 }

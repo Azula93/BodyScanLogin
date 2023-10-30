@@ -148,13 +148,13 @@
 
       <!-- Botón "Volver arriba" -->
        <section class="scroll"> 
-       <a id="scroll-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button">
+       <a id="scroll-to-top" href="#" class="back-to-top" role="button">
         <i class="bi bi-arrow-up-circle-fill"></i></a>
        </section>
     
     </main>
-    <script src="/login/JS/ValoracionNut.js"></script>
-    <script type="module" src="/login/JS/btnarriba.js"></script>
+    <!-- <script src="/login/JS/ValoracionNut.js"></script>
+    <script type="module" src="/login/JS/btnarriba.js"></script> -->
     
 
     <?php
