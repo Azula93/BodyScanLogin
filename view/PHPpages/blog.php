@@ -22,7 +22,7 @@
 
         <section class="cita">
           <blockquote cite="https://www.icbf.gov.co/system/files/cartilla_mi_plato_un_arcoiris_divertido_de_sabores.pdf">
-            <a href="https://www.icbf.gov.co/system/files/cartilla_mi_plato_un_arcoiris_divertido_de_sabores.pdf" target="_blank" rel="noopener noreferrer">
+            <a class = "cita" href="https://www.icbf.gov.co/system/files/cartilla_mi_plato_un_arcoiris_divertido_de_sabores.pdf" target="_blank" rel="noopener noreferrer">
               <cite>Imagenes Tomadas de cartilla mi plato un arcoiris divertido de sabores</cite>
             </a>
           </blockquote>
@@ -41,7 +41,7 @@
 
                 <section class="cita">
                   <blockquote cite="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf">
-                    <a  href="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf" target="_blank" rel="noopener noreferrer">
+                    <a  class = "cita"  href="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf" target="_blank" rel="noopener noreferrer">
                       <cite>Tomado de Manual Facilitadores GABA</cite>
                     </a>
                   </blockquote>
@@ -52,13 +52,11 @@
 
                 <section class="cita">
                   <blockquote cite="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf">
-                    <a href="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf" target="_blank" rel="noopener noreferrer">
+                    <a class = "cita"  href="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf" target="_blank" rel="noopener noreferrer">
                       <cite>Tomado de Manual Facilitadores GABA</cite>
                     </a>
                   </blockquote>
                 </section>
-               
-
 
                 <p class="porciones-p2">
                   Recomendación de número de intercambios de alimentos por grupo de alimentos por grupo de edad por día
@@ -68,8 +66,8 @@
                 
                 <section class="cita">
                   <blockquote cite="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf">
-                    <a href="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf" target="_blank" rel="noopener noreferrer">
-                      <cite>Fuente: Equipo académico del CTNGA, ICBF y FAO - 2013.</cite>
+                    <a class = "cita"  href="https://www.icbf.gov.co/sites/default/files/manual_facilitadores_gaba.pdf" target="_blank" rel="noopener noreferrer">
+                      <cite class = "citafinal">Fuente: Equipo académico del CTNGA, ICBF y FAO - 2013.</cite>
                     </a>
                   </blockquote>
                 </section>

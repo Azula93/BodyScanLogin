@@ -1,14 +1,41 @@
 {
-    "liveServer.settings.port": 5501,
-
+    "editor.cursorBlinking": "expand",
+    "workbench.iconTheme": "material-icon-theme",
+    "errorLens.exclude": [
+        "Parsing error: Cannot find module 'C:\\\\Users\\\\patri\\\\Desktop\\\\REACT\\\\Styled-components-proyecto_inicial\\\\StyledComponents\\\\my-app\\\\node_modules\\\\eslint-visitor-keys\\\\dist\\\\eslint-visitor-keys\\.cjs'"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "'Victor Mono', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Noctis Bordo",
+    "window.zoomLevel": 1,
+    "php.validate.executablePath": "C:/wamp64/bin/php/php8.2.0/php.exe",
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.excludeList": [
+        "/**/node_modules/**",
+        "/.vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.formats": [
+
+
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "/login/sass/style.css"
+            "savePath": "/css",
+            
+        },
+
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css"
+            
         }
     ],
-    "liveSassCompile.settings.includeItems": [],
-    "liveSassCompile.settings.excludeList": []
-
+    "liveSassCompile.settings.watchOnLaunch": true
+    
+    
+   
 }

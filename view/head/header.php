@@ -55,10 +55,10 @@
                     <a class="nav-link" href="/login/view/PHPpages/blog.php">Blog</a>
                 </li> 
                 <li class=" nav-item mx-2">
-                <a class=" boton" href="/login/view/home/login.php">Inicia Sesión</a>
+                <a class="boton" href="/login/view/home/login.php">Inicia Sesión</a>
                 </li>
                 <li class=" nav-item mx-2">
-                <a class=" boton" href="/login/view/home/signup.php">Regístrate</a>
+                <a class="boton" href="/login/view/home/signup.php">Regístrate</a>
                 </li>
               </ul>
                
@@ -123,7 +123,7 @@
                                           </li>
 
                                           <li >
-                                            <a class="dropdown-item dropdown-menu-section" href="#">Mis datos <i class="bi bi-activity float-lg-left "></i></a>
+                                            <a class="dropdown-item dropdown-menu-section" href="/login/view/PHPpages/resultados_usuarios.php">Mis datos <i class="bi bi-activity float-lg-left "></i></a>
                                             
                                           </li>
                                           

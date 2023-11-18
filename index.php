@@ -26,7 +26,7 @@
                     <p class="card-text">Realiza la evaluación de los índices antropométricos básicos, como el IMC  y el ICC. 
                       Estos índices te permitirán estimar tu estado de salud general, evaluar el riesgo cardiovascular y determinar tu peso ideal.
                     </p>
-                    <a href="/login/view/PHPpages/medidas.php" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/medidas.php" class="card-button d-block mx-auto d-block mx-auto">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -39,9 +39,9 @@
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Valoración nutricional</h5>
-                    <p class="card-text">Calcula tu tasa metabólica basal y determina tus necesidades nutricionales diarias de proteínas, carbohidratos, grasas y micronutrientes utilizando nuestra calculadora de calorias
+                    <p class="card-text">Calcula tu tasa metabólica basal y determina tus necesidades nutricionales diarias de proteínas, carbohidratos, grasas y micronutrientes utilizando nuestra calculadora de calorias.
                     </p>
-                    <a href="/login/view/home/signup.php" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/home/signup.php" class="card-button d-block mx-auto d-block mx-auto">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -54,10 +54,10 @@
                   <div class="card-body">
                     <h5 class="card-title">Vo2 Máximo</h5>
                     <p class="card-text">
-                      El VO2 máximo es la máxima cantidad de oxígeno que una persona puede utilizar durante el ejercicio intenso 
-                      y continuo, lo que refleja su capacidad aeróbica y resistencia física. <br>
+                      Calcula la máxima cantidad de oxígeno que puedes utilizar durante el ejercicio intenso 
+                      y continuo, lo que refleja tu capacidad aeróbica y resistencia física. <br>
                       Calcula tu Vo2 Máximo y tus METS ! </p>
-                    <a href="/login/view/home/signup.php" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/home/signup.php" class="card-button d-block mx-auto d-block mx-auto">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -70,10 +70,10 @@
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Blog</h5>
-                    <p class="card-text">Aprende cómo distribuir los alimentos en tu plato utilizando la guía nutricional del ICBF. 
-                      En esta guía, encontrarás los porcentajes recomendados por grupo alimenticio que debes incluir en tus comidas
+                    <p class="card-text text-justify">Aprende cómo distribuir los alimentos en tu plato utilizando la guía nutricional del ICBF. 
+                      En esta guía, encontrarás los porcentajes recomendados por grupo alimenticio que debes incluir en tus comidas.
                     </p>
-                    <a href="/login/view/PHPpages/blog.php" class=" btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/blog.php" class="card-button d-block mx-auto d-block mx-auto">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -103,10 +103,10 @@
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Indices Antropometricos</h5>
-                    <p class="card-text">Realiza la evaluación de los índices antropométricos básicos, como el IMC  y el ICC. 
+                    <p class="card-text text-justify">Realiza la evaluación de los índices antropométricos básicos, como el IMC  y el ICC. 
                       Estos índices te permitirán estimar tu estado de salud general, evaluar el riesgo cardiovascular y determinar tu peso ideal.
                     </p>
-                    <a href="/login/view/PHPpages/medidas.php" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/medidas.php" class="card-button d-block mx-auto d-block mx-auto">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -119,9 +119,9 @@
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Valoración nutricional</h5>
-                    <p class="card-text">Calcula tu tasa metabólica basal y determina tus necesidades nutricionales diarias de proteínas, carbohidratos, grasas y micronutrientes utilizando nuestra calculadora de calorias
+                    <p class="card-text text-justify">Calcula tu tasa metabólica basal y determina tus necesidades nutricionales diarias de proteínas, carbohidratos, grasas y micronutrientes utilizando nuestra calculadora de calorias
                     </p>
-                    <a href="/login/view/PHPpages/valNut.php" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/valNut.php" class="card-button d-block mx-auto d-block mx-auto">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -133,11 +133,11 @@
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Vo2 Máximo</h5>
-                    <p class="card-text">
+                    <p class=" text-justify">
                       El VO2 máximo es la máxima cantidad de oxígeno que una persona puede utilizar durante el ejercicio intenso 
                       y continuo, lo que refleja su capacidad aeróbica y resistencia física. <br>
                       Calcula tu Vo2 Máximo y tus METS ! </p>
-                    <a href="/login/view/PHPpages/vo2max.php" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/vo2max.php" class="card-button d-block mx-auto d-block mx-auto">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -150,10 +150,10 @@
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Blog</h5>
-                    <p class="card-text">Aprende cómo distribuir los alimentos en tu plato utilizando la guía nutricional del ICBF. 
+                    <p class="card-text text-justify">Aprende cómo distribuir los alimentos en tu plato utilizando la guía nutricional del ICBF. 
                       En esta guía, encontrarás los porcentajes recomendados por grupo alimenticio que debes incluir en tus comidas
                     </p>
-                    <a href="/login/view/PHPpages/blog.php" class=" btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/blog.php" class="card-button d-block mx-auto d-block mx-auto">Ver más</a>
                   </div>
                 </div>
               </div>

@@ -20,7 +20,7 @@
             Inicia Sesión en BodyScan
         </div>
 
-        <form action="verificar.php" method="post" class="col-3 login" autocomplete ="off" >
+        <form action="verificar.php" method="post" class="col-3 login container" autocomplete ="off" >
            <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
                 <input type="email" name="correo" class="form-control inputs" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -28,7 +28,7 @@
 
            <div class="mb-3">
              <label for="password" class="form-label">Contraseña</label>
-                <div class="box-eye">
+                <div class="box-eye container">
                      <i id="eyepassword" class="bi bi-eye-fill   changePassword box-eye-icon" onclick="mostrarPass('password','eyepassword')" ></i>
                 </div>
              <input type="password" name="password" class="form-control inputs" id="password">
@@ -41,11 +41,11 @@
                 </div>
              <?php endif; ?>
 
-            <button type="submit" class="btn btn-primary btnLogin">Inicia Sesión</button>
+            <button type="submit" class="btnLogin">Inicia Sesión</button>
   
         </form>    
     </div>
-        <div class="redirect col-3">
+        <div class="redirect col-3 ">
             ¿Nuevo en BodyScan? <a href="signup.php" style="text-decoration:none">Crea una cuenta</a>
         </div>
     

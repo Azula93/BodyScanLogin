@@ -63,7 +63,7 @@
   
         </form>    
     </div>
-        <div class="redirect col-3">
+        <div class="redirectSU col-3">
             ¿Tienes cuenta? <a href="login.php" style="text-decoration:none">Inicia Sesión</a>
         </div>
     

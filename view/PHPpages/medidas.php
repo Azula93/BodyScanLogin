@@ -36,7 +36,7 @@
             </form>
 
             <section class="btnImc">
-                <button class="btn btn-dark px-3 py-3 mx-auto" type="button" onclick="calculoImc()">
+                <button class=" btnImc1 px-3 py-3 mx-auto" type="button" onclick="calculoImc()">
                 Calcular IMC
             </button>
             </section>
@@ -94,7 +94,7 @@
             </form>
 
                 <section class="iccbtn-section"> 
-                <button class="btnIcc btnIcc btn btn-dark px-3 py-3 mx-auto" type="button" onclick="calculoIcc()">
+                <button class=" btnIcc px-3 py-3 mx-auto" type="button" onclick="calculoIcc()">
                     Calcular ICC
                 </button>
                 </section>

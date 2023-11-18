@@ -19,21 +19,21 @@
               Navegación</h6>
               <hr class="mb-4">
               <p>
-                <a href="/login/view/home/login.php" class="text-white">Tu cuenta</a>
+                <a href="/login/view/home/login.php" class="">Tu cuenta</a>
               </p>
               <p>
-                <a href="/login/view/PHPpages/blog.php" class="text-white">Blog</a>
+                <a href="/login/view/PHPpages/blog.php" class="">Blog</a>
               </p>
               <p>
-                <a href="/login/view/PHPpages/medidas.php" class="text-white">Medidas Antropometricas</a>
-              </p>
-
-              <p>
-                <a href="/login/view/PHPpages/valNut.php" class="text-white">Valoración Nutricional</a>
+                <a href="/login/view/PHPpages/medidas.php" class="">Medidas Antropometricas</a>
               </p>
 
               <p>
-                <a href="/login/view/PHPpages/vo2max.php" class="text-white">Vo2Máx</a>
+                <a href="/login/view/PHPpages/valNut.php" class="">Valoración Nutricional</a>
+              </p>
+
+              <p>
+                <a href="/login/view/PHPpages/vo2max.php" class="">Vo2Máx</a>
               </p>
               
           </div>
@@ -43,16 +43,16 @@
               Acerca de nosotros</h6>
               <hr class="mb-4">
               <p>
-                <a href="/login/view/PHPpages/aboutUs.php" class="text-white">¿Quienes somos?</a>
+                <a href="/login/view/PHPpages/aboutUs.php" class="">¿Quienes somos?</a>
               </p>
               <p>
-                <a href="/login/view/PHPpages/politica_privacidad.php" class="text-white">Politica de privacidad</a>
+                <a href="/login/view/PHPpages/politica_privacidad.php" class="">Politica de privacidad</a>
               </p>
               <p>
-                <a href="#" class="text-white">Manejo de Cuenta</a>
+                <a href="#" class="">Manejo de Cuenta</a>
               </p>
               <p>
-                <a href="#" class="text-white">Ayuda</a>
+                <a href="#" class="">Ayuda</a>
               </p>
           </div>
 
@@ -60,14 +60,14 @@
             <h6 class="text-uppercase mb-4 font-weight-bold ">
               Contáctanos</h6>
               <hr class="mb-4">
-              <p class="text-white">
+              <p class="">
                 <a href="#"><li class="fas fa-home me-3 "></li>Cali - Colombia</p></a>
 
-              <p class="text-white">
+              <p class="">
                <a href="mailto:azuladev@gmail.com"> <li class="fas fa-envelope me-3"></li>info@bodyscan.com</a>
               </p>
 
-              <p class="text-white">
+              <p class="">
                <a href="tel:3183348608"> <li class="fas fa-phone me-3"></li>Llamanos!</a>
               </p>
               
@@ -75,10 +75,10 @@
             <hr class="mb-4">
 
             <div class="text-center mb-2 ">
-              <p>
+              <p class="text-white">
                 Copyright Todos los derechos reservados
                 <a href="#">
-                  <strong class="text-primary">AzulaDev</strong>
+                  <strong class="azuladev">AzulaDev</strong>
                 </a>
               </p>
             </div>
