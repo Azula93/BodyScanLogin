@@ -7,16 +7,19 @@
       <div class=" text-center text-md-start">
         <div class="row text-center text-md-start">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold ">Body Scan</h6>
+            <h6 class="text-uppercase mb-4 font-weight-bold "> <b>Body Scan</b></h6>
             <hr class="mb-4 ">
             <p class="text-white">
-              Nuestra misión es brindarte los datos que necesitas para mejorar tu salud y bienestar. Creemos en la importancia de entender tus medidas corporales para tomar decisiones informadas sobre tu estilo de vida y dieta. Nuestro equipo se dedica a ofrecerte una experiencia precisa y amigable para que puedas alcanzar tus metas de salud.
+              Te brindamos los datos que necesitas para mejorar tu salud y bienestar. 
+              Creemos en la importancia de entender tus medidas corporales para tomar decisiones informadas
+               sobre tu estilo de vida y dieta. Queremos ofrecerte una experiencia precisa 
+               y amigable para que puedas alcanzar tus metas de salud.
             </p>
           </div>
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold ">
-              Navegación</h6>
+              <b>Navegación</b></h6>
               <hr class="mb-4">
               <p>
                 <a href="/login/view/home/login.php" class="">Tu cuenta</a>
@@ -40,10 +43,10 @@
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold ">
-              Acerca de nosotros</h6>
+             <b>Acerca de nosotros</b></h6>
               <hr class="mb-4">
               <p>
-                <a href="/login/view/PHPpages/aboutUs.php" class="">¿Quienes somos?</a>
+                <a href="/login/view/PHPpages/aboutUs.php" class="">  ¿Quienes somos?</a>
               </p>
               <p>
                 <a href="/login/view/PHPpages/politica_privacidad.php" class="">Politica de privacidad</a>
@@ -58,7 +61,7 @@
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold ">
-              Contáctanos</h6>
+              <b>Contáctanos</b></h6>
               <hr class="mb-4">
               <p class="">
                 <a href="#"><li class="fas fa-home me-3 "></li>Cali - Colombia</p></a>

@@ -20,38 +20,39 @@
           <h2 class="subtitle-get-h2">Calcula tu GET</h2>
           <p class="subtitle-get-parrafo">Para calcular tu GET ingresa los siguientes datos:</p>
         </section>
-      
-  
+
         <section class="infoGet">
-          <p class="infoGet-texto"> <b> Selecciona tu Sexo:</b></p>
 
           <section class="GetRadioBtn">
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="genero" value="mujer">
-                  <label class="Rbtn form-check-label"> Femenino </label>
-              </div>
+            <div class="GetRadioBtn-1">
+              <p class="infoGet-texto"> <b> Selecciona tu Sexo:</b></p>
+                <div class="form-check ">
+                    <input class="form-check-input" type="radio" name="genero" value="mujer">
+                    <label class="Rbtn form-check-label"> Femenino </label>
+                </div>
 
-               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="genero" value="hombre">
-                  <label class="Rbtn form-check-label"> Masculino</label>
-               </div>
+                 <div class="form-check">
+                    <input class="form-check-input" type="radio" name="genero" value="hombre">
+                    <label class="Rbtn form-check-label"> Masculino</label>
+                 </div>
+            </div>
           </section>
 
            <section class="inputsGet">
-             <div class="inputsGet-talla">
-                <label class="form-label " for="talla">Talla en Cm: </label>
+             <div class="inputsGet-talla ">
+                <label class="form-label " for="talla"><b>Talla en Cm: </b> </label>
                 <input class="form-control  form-control-lg " type="number" id="talla" placeholder="170cm"  min="2" maxlength="3" pattern="^[0-9]+"  oninput="limitarNumero(this, 3)"> 
                 <p id="errorMensajeTalla" style="color: crimson;"></p>
               </div>
 
               <div class="inputsGet-peso">
-                <label class="form-label" for="peso">Peso en Kg: </label>
+                <label class="form-label" for="peso"><b>Peso en Kg: </b></label>
                 <input class="form-control form-control-lg " type="number" id="peso" placeholder="60kg"  min="2" maxlength="2" pattern="^[0-9]+"  oninput="limitarNumero(this, 2)"> 
                 <p id="errorMensajePeso" style="color: crimson;"></p>
               </div>
 
               <div class="inputsGet-edad">
-                <label class="form-label" for="edad">Edad en años: </label>
+                <label class="form-label" for="edad"><b>Edad en años: </b></label>
                 <input class="form-control form-control-lg " type="number" id="edad" placeholder="25"  min="1" maxlength="2" pattern="^[0-9]+"  oninput="limitarNumero(this, 2)"> 
                 <p id="errorMensajeEdad" style="color: crimson;"></p>
               </div>
@@ -87,12 +88,15 @@
                  </section>
                 </section>
             </section>
+        </section>
+      </section>
 
-            <section class="btnResultGet">
-                <button class="btn btn-dark px-3 py-3 mx-auto " type="button" id="mostrarSeleccion" onclick="calculoGet()">
-                  Calcular GET
-                </button>
-            </section>
+      <section class="results">
+        <section class="btnResultGet">
+          <button class="card-button  px-3 py-3 mx-auto " type="button" id="mostrarSeleccion" onclick="calculoGet()">
+            Calcular GET
+          </button>
+        </section>
 
             <section class="resultadoGet-section">
                  <span>
@@ -102,9 +106,10 @@
                 </span> 
             </section> 
         </section>
-      </section>
 
        <section class="Macro">
+
+       <section class="Macro-info">
           <section >
             <h2 class="Macro-Title">Requerimiento de Macronutrientes Diario </h2>
           </section>
@@ -116,20 +121,21 @@
 
           <section class="DeporteRadioBtn">
 
-            <div class="form-check">
+            <div class="form-check DeporteRadioBtn-rbtns">
              <input class="form-check-input" type="radio" name="Deportista" value="Deportista">
               <label class="Rbtn form-check-label">Deportista</label>
             </div>
 
-            <div class="form-check">
+            <div class="form-check DeporteRadioBtn-rbtns">
              <input class="form-check-input" type="radio" name="Deportista" value="No deportista">
               <label class="Rbtn form-check-label">No deportista</label>
             </div>
           </section>
+        </section>
 
           <section class="btnResultDeporte">
-              <button class="btnResultDeporte-calc btn btn-dark px-3 py-3 mx-auto btnResulReq" type="button" id="mostrarDeporte" onclick="macronutrientesDiarios()" >
-                Calcular Requerimiento
+              <button class="btnResultDeporte-calc card-button  px-3 py-3 mx-auto btnResulReq" type="button" id="mostrarDeporte" onclick="macronutrientesDiarios()" >
+                Calcular Requerimiento 👇
               </button>
 
             <section class="resultadoMacronut-section">
@@ -139,11 +145,13 @@
                   <div class="numeroMacronut" id="resultadoMacronut"> </div>
               </span> 
             </section>
-          </section>
+
+          
 
        <section class="dieta-section">
-          <p class="dieta-section-parrafo">En este 👉 <a class="link-dieta text-primary" href="/Pages/blog.html">LINK</a> podrás obtener mas información acerca de la dieta que debes seguir </p>
+          <p class="dieta-section-parrafo">En este 👉 <a class="dieta-section-link" href="/Pages/blog.html">LINK</a> podrás obtener más información acerca de la dieta que debes seguir 🥕 </p>
         </section>
+      </section>
       </section>
 
       <!-- Botón "Volver arriba" -->

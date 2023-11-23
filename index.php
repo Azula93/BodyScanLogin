@@ -7,7 +7,7 @@
          <?php if(empty($_SESSION['usuario'])) : ?>
     <main>
         <section class="imgPpal container d-flex justify-content-center align-items-center">
-          <img class=" img img-fluid img-title" src="/login/assets/logoSinFondo.png" alt="">
+          <img class=" img img-fluid img-title" src="/login/assets/logoAzul.png" alt="">
         </section>
 
         <!-- INICIO cards -->
@@ -165,7 +165,7 @@
 
     <!-- BOTON SUBIR -->
     <section class="scroll"> 
-      <a id="scroll-to-top" href="#" class="btn btn-primary btn-lg back-to-top d-block d-lg-none" role="button">
+      <a id="scroll-to-top" href="#" class=" back-to-top d-block d-lg-none" role="button">
         <i class="bi bi-arrow-up-circle-fill"></i></a>
     </section>
 

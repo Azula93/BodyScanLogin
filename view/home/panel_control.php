@@ -9,7 +9,7 @@
 
   
 ?>
-<!-- ESTA PAGINA PUEDE CAMBIAR O SE PUEDE PONER EL CONTENIDO DE LA APAGINA DE INICIO PARA QUE SEA LA PRIMERA PAGINA QUE SE VEA CUANDO LA PERSONA INICIA SESION 
+<!-- ESTA PAGINA PUEDE CAMBIAR O SE PUEDE PONER EL CONTENIDO DE LA PAGINA DE INICIO PARA QUE SEA LA PRIMERA PAGINA QUE SE VEA CUANDO LA PERSONA INICIA SESION 
 Y EN LUGAR DE DAR LA BIENVENIDA CON EL CORREO AGREGAR UN CAMPO "USERNAME" O NOMBRE Y DAR LA BIEVENIDA CON EL NOMBRE DE LA PERSONA -->
     <h1 class="text-center mt-4 imgPpal welcomeTitle">Bienvenido <?= $_SESSION['usuario'] ?></h1>
 
@@ -34,7 +34,7 @@ Y EN LUGAR DE DAR LA BIENVENIDA CON EL CORREO AGREGAR UN CAMPO "USERNAME" O NOMB
                     <p class="card-text">Realiza la evaluación de los índices antropométricos básicos, como el IMC  y el ICC. 
                       Estos índices te permitirán estimar tu estado de salud general, evaluar el riesgo cardiovascular y determinar tu peso ideal.
                     </p>
-                    <a href="/login/view/PHPpages/medidas.php" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/medidas.php" class=" d-block mx-auto d-block mx-auto card-button">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -49,7 +49,7 @@ Y EN LUGAR DE DAR LA BIENVENIDA CON EL CORREO AGREGAR UN CAMPO "USERNAME" O NOMB
                     <h5 class="card-title">Valoración nutricional</h5>
                     <p class="card-text">Calcula tu tasa metabólica basal y determina tus necesidades nutricionales diarias de proteínas, carbohidratos, grasas y micronutrientes utilizando nuestra calculadora de calorias
                     </p>
-                    <a href="/login/view/PHPpages/valNut.php" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/valNut.php" class="d-block mx-auto d-block mx-auto card-button">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@ Y EN LUGAR DE DAR LA BIENVENIDA CON EL CORREO AGREGAR UN CAMPO "USERNAME" O NOMB
                       El VO2 máximo es la máxima cantidad de oxígeno que una persona puede utilizar durante el ejercicio intenso 
                       y continuo, lo que refleja su capacidad aeróbica y resistencia física. <br>
                       Calcula tu Vo2 Máximo y tus METS ! </p>
-                    <a href="/login/view/PHPpages/vo2max.php" class="btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/vo2max.php" class="d-block mx-auto d-block mx-auto card-button">Ver más</a>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ Y EN LUGAR DE DAR LA BIENVENIDA CON EL CORREO AGREGAR UN CAMPO "USERNAME" O NOMB
                     <p class="card-text">Aprende cómo distribuir los alimentos en tu plato utilizando la guía nutricional del ICBF. 
                       En esta guía, encontrarás los porcentajes recomendados por grupo alimenticio que debes incluir en tus comidas
                     </p>
-                    <a href="/login/view/PHPpages/blog.php" class=" btn btn-primary d-block mx-auto d-block mx-auto card-button">Ver más</a>
+                    <a href="/login/view/PHPpages/blog.php" class="d-block mx-auto d-block mx-auto card-button">Ver más</a>
                   </div>
                 </div>
               </div>

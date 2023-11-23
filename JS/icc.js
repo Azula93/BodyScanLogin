@@ -71,29 +71,29 @@ const calculoIcc = () =>{
 
 
 
-let usuario_id = localStorage.getItem('usuario_id');
-// Crear un objeto con los datos que quieres enviar al servidor
-let data = {
+// let usuario_id = localStorage.getItem('usuario_id');
+// // Crear un objeto con los datos que quieres enviar al servidor
+// let data = {
   
-  usuario_id: usuario_id,
-  icc: formulaIcc
-};
+//   usuario_id: usuario_id,
+//   icc: formulaIcc
+// };
 
-// Convertir los datos a formato JSON
-let jsonData = JSON.stringify(data);
+// // Convertir los datos a formato JSON
+// let jsonData = JSON.stringify(data);
 
-// Hacer una solicitud fetch al servidor
-fetch('/login/view/PHPpages/resultados_usuarios.php', {
-  method: 'POST', // o 'PUT'
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: jsonData,
-})
-.then(response => response.json())
-.then(data => {
-  console.log('Success:', data);
-})
-.catch((error) => {
-  console.error('Error:', error);
-});
+// // Hacer una solicitud fetch al servidor
+// fetch('/login/view/PHPpages/resultados_usuarios.php', {
+//   method: 'POST', // o 'PUT'
+//   headers: {
+//     'Content-Type': 'application/json',
+//   },
+//   body: jsonData,
+// })
+// .then(response => response.json())
+// .then(data => {
+//   console.log('Success:', data);
+// })
+// .catch((error) => {
+//   console.error('Error:', error);
+// });

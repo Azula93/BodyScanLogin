@@ -112,37 +112,45 @@
 
                                   <li class=" nav-item mx-2">
                                      
-                                     <div class="dropdown">
+                                     <ul class="dropdown">
                                         <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                          <img class="img-fluid navigation-img" data-toggle="dropdown" aria-expanded="false" src="/login/assets/profile.png" alt="profile-img">
+                                          <!-- img account -->
+                                           <img class="img-fluid navigation-img" data-toggle="dropdown" aria-expanded="false" src="/login/assets/profile.png" alt="profile-img">
                                         </a>
-                                                  
-                                        <ul class="dropdown-menu dropdown-menu-lg">
-                                          <li class="dropdown-menu-header">
-                                            <a class="dropdown-item " href="#"><img class="img-dropdown float-lg-left" src="/login/assets/profile.png" alt=""><span class="dropdown-menu-username">Azula</span></a>
-                                          </li>
+                                                  <!-- dropdown menu -->
+                                        <div class="dropdown-menu dropdown-menu-lg"> 
+                                          <!-- dropdown header -->
+                                          <div class="dropdown-menu-header">
+                                            <a class="dropdown-item dropdown-menu-header-user" href="/login/view/home/panel_control.php">
+                                              <img class="img-dropdown " src="/login/assets/profile.png" alt="">
+                                              <span class="dropdown-menu-username"><?= $_SESSION['usuario'] ?></span>
+                                            </a>
+                                          </div>
 
                                           <li >
-                                            <a class="dropdown-item dropdown-menu-section" href="/login/view/PHPpages/resultados_usuarios.php">Mis datos <i class="bi bi-activity float-lg-left "></i></a>
-                                            
+                                            <a class="dropdown-item dropdown-menu-section" href="/login/view/PHPpages/resultados_usuarios.php">Mis datos <i class="bi  bi-activity"></i>
+                                            </a>
                                           </li>
                                           
-                                          <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                          <!-- <li><a class="dropdown-item" href="/login/view/PHPpages/cambiarfoto.php"> Cambiar Foto </a></li>  -->
 
-                                          <li class=" nav-item mx-2 ">
-                                            <a class=" boton dropdown-menu-section" href="/login/view/home/logout.php">Cerrar Sesión <i class="bi bi-door-closed-fill float-lg-left mr-5"></i></a>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                     
-                                    </li> 
+                                           <li>
+                                             <a class="dropdown-item dropdown-menu-section" href="/login/view/home/logout.php">Cerrar   Sesión   <i class="bi bi-door-closed-fill mr-5"></i>
+                                             </a>
+                                          </li> 
+
+                                       </div>
+                                      </ul> 
+                                    </li>  
 
                                   <!-- <li class=" nav-item mx-2">
                                     <a class=" boton" href="/login/view/home/logout.php">Cerrar Sesión</a>
                                   </li> -->
 
                                 </ul>
+                              </div> 
                               </div>
+                              <!-- FIN PERFIL -->
                               <?php endif ?>
 
                       </div>

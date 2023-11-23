@@ -63,7 +63,7 @@ function calculoVo2(){
         break;
 
         default:
-            resultadoMets = ` <p class="textoVo2Result text-danger">error </p>`;
+            resultadoMets = ` <p class="textoVo2Result text-danger"> Error! </p>`;
     }
     document.getElementById("resultadoMets").innerHTML = resultadoMets;
  }
@@ -94,7 +94,7 @@ function calculoVo2(){
     let inactivo = Vo2Max/0.5;
     let activo = Vo2Max/0.4;
 
-    let resultadoExpectVida = ''
+    let resultadoExpectVida = '';
 
     switch(true){
         case ActividadFisicaExpectVida == 'menos 3 v-s':

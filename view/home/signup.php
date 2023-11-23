@@ -10,7 +10,7 @@
     }
 ?>
 
-    <div class="fondo-login">
+    <div class="fondo-loginSU">
         <div class="icon">
             <a href="/login/index.php">
                 <i class="bi bi-door-open-fill door-icon"></i>
@@ -20,7 +20,7 @@
             Crea una cuenta en BodyScan
         </div>
 
-        <form action="store.php" method="POST" class="col-3 login" autocomplete ="off" >
+        <form action="store.php" method="POST" class="col-3 loginSU" autocomplete ="off" >
 
             <div class="mb-3">
                 <label for="nombreUsuario" class="form-label">Nombre Completo</label>
@@ -59,12 +59,12 @@
                 </div>
              <?php endif; ?>
 
-            <button type="submit" class="btn btn-primary btnLogin">CREAR CUENTA</button>
+            <button type="submit" class="btnSU">CREAR CUENTA</button>
   
         </form>    
     </div>
         <div class="redirectSU col-3">
-            ¿Tienes cuenta? <a href="login.php" style="text-decoration:none">Inicia Sesión</a>
+            ¿Tienes cuenta? <a class="redirectSU-link" href="login.php" style="text-decoration:none">Inicia Sesión</a>
         </div>
     
 

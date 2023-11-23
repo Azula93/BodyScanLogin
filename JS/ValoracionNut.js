@@ -402,7 +402,8 @@ const imgMacro = '/login/assets/img(20).svg'
             break;
             
           default:
-          macronutrientesGr = " Verifica que hayas ingresado todos los datos !"
+          macronutrientesGr = `<p class="textoGetResult text-danger"> Puedes realizar el cálculo cuando ingreses todos los datos solicitados 
+          en la sección del GET ☝️</p>`
 
     } 
 

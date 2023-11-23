@@ -120,7 +120,6 @@ function calculoGet ()  {
 
           case Generoseleccionado == 'mujer' && factorActividad == "6 Horas semanales":
             resultadoGet  = `Tu gasto energético total es de ${Math.trunc(formulaMujeresModerada)} kcal`;
-            console.log(formulaHombresModerada, "prueba");
           break;
 
           case Generoseleccionado == 'mujer' && factorActividad == "4-5 horas Diarias":
@@ -145,18 +144,14 @@ function calculoGet ()  {
           break;
 
         default:
-            resultadoGet = " Verifica que hayas ingresado todos los datos !"
+            resultadoGet = `Verifica que hayas ingresado todos los datos !`
 
     }
 
   // muestra el resultado en pantalla
   document.getElementById("resultadoGet").innerHTML = resultadoGet;
   console.log(resultadoGet);
-
-   
-
 };
-
 
 
   function macronutrientesDiarios (){
