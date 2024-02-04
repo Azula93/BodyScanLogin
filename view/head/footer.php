@@ -3,7 +3,7 @@
  inicie en una pag y finalice en otra -->
 </div>
      <!-- Incio FOOTER -->
-     <footer class="footer bg-dark pt-5 pb-4">
+     <footer class=" bg-dark pt-5 pb-4">
       <div class=" text-center text-md-start">
         <div class="row text-center text-md-start">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">

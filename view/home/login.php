@@ -24,20 +24,24 @@
 
         
     <!-- FORMULARIO -->
-    <section class="container login ">
+    <section class="container border border-primary rounded  p-3 col-6 mb-3 ">
         <div class="row justify-content-center">
             <div class="col-sm-10 col-md-6">
                 <form action="verificar.php" method="post" class="" autocomplete ="off" >
                     <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-                    <input class="form-control form-control-sm inputs" type="email" name="correo" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input class="form-control rounded form-control-lg mb-2 w-100 " type="email" name="correo" id="exampleInputEmail1" aria-describedby="emailHelp">
                     
 
-           <div class="mb-3">
+           <div class="mb-3 position-relative">
              <label for="password" class="form-label">Contraseña</label>
-                <div class="box-eye container">
-                     <i id="eyepassword" class="bi bi-eye-fill   changePassword box-eye-icon" onclick="mostrarPass('password','eyepassword')" ></i>
-                </div>
-             <input class="form-control form-control-sm inputs inputpass" type="password" name="password" id="password">
+
+             <div  class="input-group">
+                <input class="form-control rounded form-control-lg mb-2 w-100 " type="password" name="password" id="password">
+             </div>
+
+             <div class="input-group-append">
+                    <i id="eyepassword" class="bi bi-eye-fill changePassword" onclick="mostrarPass('password','eyepassword')" ></i>    
+             </div>
            </div>
 
               <!-- MUESTRA LOS MENSAJES DE ERROR POR PANTALLA -->
@@ -47,7 +51,9 @@
                 </div>
              <?php endif; ?>
 
-            <button type="submit" class="btnLogin">Inicia Sesión</button>
+            <div class="d-flex align-items-center justify-content-center">
+                <button type="submit" class="btnLogin">Inicia Sesión</button>
+            </div>
         </form> 
         </div>
         </div>
@@ -55,9 +61,9 @@
          
     </div>
 
-    <section class="container">
-        <div class="redirect text-center mt-3 col-sm-10 col-md-3">
-            ¿Nuevo en BodyScan? <a class="redirect-link" href="signup.php" style="text-decoration:none">Crea una cuenta</a>
+    <section class="container border border-primary rounded p-3 mb-5 text-center col-6">
+        <div class=" ">
+            ¿Nuevo en BodyScan? <a class="text-primary" href="signup.php" style="text-decoration:none">Crea una cuenta</a>
         </div>
     </section>
     
