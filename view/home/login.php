@@ -24,9 +24,9 @@
 
         
     <!-- FORMULARIO -->
-    <section class="container border border-primary rounded  p-3 col-6 mb-3 ">
+    <section class="container border border-primary rounded p-3 col-12 col-md-6 mb-3">
         <div class="row justify-content-center">
-            <div class="col-sm-10 col-md-6">
+            <div class="col-sm-10 col-md-10">
                 <form action="verificar.php" method="post" class="" autocomplete ="off" >
                     <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
                     <input class="form-control rounded form-control-lg mb-2 w-100 " type="email" name="correo" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -34,13 +34,10 @@
 
            <div class="mb-3 position-relative">
              <label for="password" class="form-label">Contraseña</label>
-
-             <div  class="input-group">
-                <input class="form-control rounded form-control-lg mb-2 w-100 " type="password" name="password" id="password">
-             </div>
-
-             <div class="input-group-append">
-                    <i id="eyepassword" class="bi bi-eye-fill changePassword" onclick="mostrarPass('password','eyepassword')" ></i>    
+             <input class="form-control rounded form-control-lg mb-2 w-100 " type="password" name="password" id="password">
+            
+             <div class="box-eye">
+                    <i id="eyepassword" class="bi bi-eye-fill " onclick="mostrarPass('password','eyepassword')" ></i>    
              </div>
            </div>
 
@@ -61,7 +58,7 @@
          
     </div>
 
-    <section class="container border border-primary rounded p-3 mb-5 text-center col-6">
+    <section class="container border border-primary rounded p-3 col-12 col-md-6 mb-3">
         <div class=" ">
             ¿Nuevo en BodyScan? <a class="text-primary" href="signup.php" style="text-decoration:none">Crea una cuenta</a>
         </div>

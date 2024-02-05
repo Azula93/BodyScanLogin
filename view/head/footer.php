@@ -7,7 +7,7 @@
       <div class=" text-center text-md-start">
         <div class="row text-center text-md-start">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold "> <b>Body Scan</b></h6>
+            <h6 class="text-uppercase mb-4 font-weight-bold text-primary"> <b>Body Scan</b></h6>
             <hr class="mb-4 ">
             <p class="text-white">
               Te brindamos los datos que necesitas para mejorar tu salud y bienestar. 
@@ -18,7 +18,7 @@
           </div>
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold ">
+            <h6 class="text-uppercase mb-4 font-weight-bold text-primary">
               <b>Navegación</b></h6>
               <hr class="mb-4">
               <p>
@@ -42,7 +42,7 @@
           </div>
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold ">
+            <h6 class="text-uppercase mb-4 font-weight-bold text-primary">
              <b>Acerca de nosotros</b></h6>
               <hr class="mb-4">
               <p>
@@ -60,7 +60,7 @@
           </div>
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold ">
+            <h6 class="text-uppercase mb-4 font-weight-bold text-primary">
               <b>Contáctanos</b></h6>
               <hr class="mb-4">
               <p class="">

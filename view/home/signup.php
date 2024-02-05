@@ -20,36 +20,40 @@
             Crea una cuenta en BodyScan
         </div>
 
-        <form action="store.php" method="POST" class="col-3 loginSU" autocomplete ="off" >
+        <!-- FORMULARIO -->
+        <section class="fs-3 container border border-primary rounded p-3 col-12 col-md-6 mb-3">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-10">
+                    <form action="store.php" method="POST" class="" autocomplete ="off" >
 
             <div class="mb-3">
                 <label for="nombreUsuario" class="form-label">Nombre Completo</label>
                 <!-- El "VALUE" hace que si el usuario envia el formulario con campos vacios los datos queden guardas en el campo asi se refresque la pag -->
-                <input type="text" name="nombreUsuario" value ="<?= (!empty($_GET['nombreUsuario'])) ? $_GET['nombreUsuario'] : "" ?>" class="form-control inputs" id="nombreUsuario" >
+                <input type="text" name="nombreUsuario" value ="<?= (!empty($_GET['nombreUsuario'])) ? $_GET['nombreUsuario'] : "" ?>" class="form-control rounded form-control-lg mb-2 w-100" id="nombreUsuario" >
             </div>
 
            <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                <input type="email" name="correo" value ="<?= (!empty($_GET['correo'])) ? $_GET['correo'] : "" ?>" class="form-control inputs" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" name="correo" value ="<?= (!empty($_GET['correo'])) ? $_GET['correo'] : "" ?>" class="form-control rounded form-control-lg mb-2 w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
 
            <div class="mb-3">
              <label for="password" class="form-label">Contraseña</label>
-                <div class="box-eye">
-                     <i id="eyepassword" class="bi bi-eye-fill   changePassword box-eye-icon" onclick="mostrarPass('password','eyepassword')" ></i>
-                </div>
-
                 <!-- EN EL "VALUE" se valida si esta vacio para luego mostrar el mensaje de error si es necesario -->
-             <input type="password" name="password" value ="<?= (!empty($_GET['password'])) ? $_GET['password'] : "" ?>" class="form-control inputs" id="password">
+             <input type="password" name="password" value ="<?= (!empty($_GET['password'])) ? $_GET['password'] : "" ?>" class="form-control rounded form-control-lg mb-2 w-100" id="password">
+             <div class="box-eyeSU">
+                <i id="eyepassword" class="bi bi-eye-fill changePassword box-eye-icon" onclick="mostrarPass('password','eyepassword')" ></i>
+            </div>
+
            </div>
 
            <div class="mb-3">
              <label for="password" class="form-label">Repite la Contraseña</label>
-                <div class="box-eye">
-                     <i id="eyepassword2" class="bi bi-eye-fill   changePassword box-eye-icon" onclick="mostrarPass('password2','eyepassword2')" ></i>
+                <div class="box-eyeSU">
+                     <i id="eyepassword2" class="bi bi-eye-fill changePassword box-eye-icon" onclick="mostrarPass('password2','eyepassword2')" ></i>
                 </div>
                 <!-- EN EL "VALUE" se valida si esta vacio para luego mostrar el mensaje de error si es necesario -->
-             <input type="password" name="confirmPass" value ="<?= (!empty($_GET['confirmPass'])) ? $_GET['confirmPass'] : "" ?>" class="form-control inputs" id="password2">
+             <input type="password" name="confirmPass" value ="<?= (!empty($_GET['confirmPass'])) ? $_GET['confirmPass'] : "" ?>" class="form-control rounded form-control-lg mb-2 w-100" id="password2">
            </div>
 
            <!-- MUESTRA LOS MENSAJES DE ERROR POR PANTALLA -->
@@ -58,14 +62,21 @@
                 <?= !empty($_GET['error']) ? $_GET['error'] : ""   ?>
                 </div>
              <?php endif; ?>
-
-            <button type="submit" class="btnSU">CREAR CUENTA</button>
-  
+            <div class="d-flex align-items-center justify-content-center">
+                <button type="submit" class="btnSU">CREAR CUENTA<button>
+            </div>
         </form>    
     </div>
-        <div class="redirectSU col-3">
-            ¿Tienes cuenta? <a class="redirectSU-link" href="login.php" style="text-decoration:none">Inicia Sesión</a>
+    </div>
+    </div>
+    </section>
+
+    <section class="container border border-primary rounded p-3 col-12 col-md-6 mb-3">
+        <div class="">
+            ¿Tienes cuenta? <a class="text-primary" href="login.php" style="text-decoration:none">Inicia Sesión</a>
         </div>
+    </section>
+        
     
 
 <?php
