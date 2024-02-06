@@ -129,5 +129,6 @@
     <script src="/login/JS/btnarriba.js"></script>
     <script src="/login/JS/ValoracionNut.js"></script>
     <script src="/login/JS/vo2.js"></script>
+    <script src="/login/JS/formulario.js"></script>
   </body>
 </html>

@@ -8,7 +8,7 @@
 
             <!-- Indices antropometricos -->
             <section class="indicesAntrop">
-                <h1 class="titlePrincipal"> Indices Antropmétricos Básicos</h1>
+                <h1 class="titlePrincipal"> Indices Antropométricos Básicos</h1>
                   <h5 class="ImcCalculo-subtitle">¿Que es el IMC?</h5>
             <!-- Calculo IMC -->
             <section class="imcCalculo"> 

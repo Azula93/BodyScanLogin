@@ -29,40 +29,61 @@
         <section class="indicaciones-section">
           <p class="indicaciones-section-p1"> <span class="indicaciones-section-p2">Indicaciones</span>
             <ul class="indicaciones-section-ul">
-              <li>El paciente debe haber  desayunado, almorzado o comido con al menos 1 hora de anterioridad</li>
+              <li>El paciente debe haber desayunado, almorzado o cenado con al menos 1 hora de anterioridad</li>
               <li>El paciente debe ser <b>mayor de 16 años</b> y <b>menor de 55 años</b></li>
             </ul>
-        
-            <span class="indicaciones-section-p3 text-danger">Contraindicaciones</span> <br>
+        <!-- MODAL -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-danger container d-flex justify-content-center     align-items-center      btn-lg fs-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Mostrar Contraindicaciones
+        </button>
 
-            <span class="indicaciones-section-p4 text-warning">⚠️ NO PODRÁ PRESENTAR EL TEST DE LA BANCA 
-              SI UD PRESENTA CUALQUIERA DE LAS SIGUIENTES PATOLOGÍAS ⚠️</span> 
-            <ul class="indicaciones-section-ul2">
-              <li>problemas cardiácos </li>
-              <li>problemas coronarios</li>
-              <li>soplos del corazon</li>
-              <li>sufre dolores de pecho frecuentes</li>
-              <li>hipoglicemia</li>
-              <li>Anemia</li>
-              <li>Hipertención</li>
-              <li>Hipotención</li>
-              <li>Problemas respiratorios</li>
-              <li>Asma</li>
-              <li>Osteocondritis</li>
-              <li>Falta de aire</li>
-              <li>Tendinopatias miembros inferiores </li>
-              <li>Esguinces de rodilla en fase aguda</li>
-              <li>Fracturas recientes </li>
-              <li>Desmayos</li>
-              <li>Epilepcia</li>
-              <li>Mareos frecuentes</li>
-              <li>Diabetes tipo I y II</li>
-            </ul> 
-            </p>
+        <!-- Modal -->
             
-        </section>
-        </section>
+        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"         aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 text-danger" id="exampleModalLabel">Contraindicaciones</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              <span class="indicaciones-section-p4 text-warning">⚠️ NO PODRÁ REALIZAR EL TEST DE LA BANCA 
+                      SI UD PRESENTA CUALQUIERA DE LAS SIGUIENTES PATOLOGÍAS ⚠️</span> 
+                    <ul class="indicaciones-section-ul2">
+                      <li>problemas cardiácos </li>
+                      <li>problemas coronarios</li>
+                      <li>soplos del corazon</li>
+                      <li>sufre dolores de pecho frecuentes</li>
+                      <li>hipoglicemia</li>
+                      <li>Anemia</li>
+                      <li>Hipertención</li>
+                      <li>Hipotención</li>
+                      <li>Problemas respiratorios</li>
+                      <li>Asma</li>
+                      <li>Osteocondritis</li>
+                      <li>Falta de aire</li>
+                      <li>Tendinopatias miembros inferiores </li>
+                      <li>Esguinces de rodilla en fase aguda</li>
+                      <li>Fracturas recientes </li>
+                      <li>Desmayos</li>
+                      <li>Epilepcia</li>
+                      <li>Mareos frecuentes</li>
+                      <li>Diabetes tipo I y II</li>
+                    </ul> 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FIN MODAL -->
 
+            </p>
+        </section>
+        </section>
+        
         <section class="ppm-section">
               <h2 class="ppm-section-title">Calcula tu Vo2 Máximo</h2>
                 <p class="ppm-section-parrafodos">Calcula tu Vo2Máx a través del test de la banca, primero debes convertir los valores de <b>BPM a PPM</b> </p>
@@ -79,7 +100,7 @@
 
                     <section class="ppm-section-input">
                         <div class="H-section">
-                            <p class="H-section-parrafo">👇 Ingresa el dato de la altura del banco en Cm 💺</p>
+                            <p class="H-section-parrafo">👇 Ingresa el dato de la altura del banco en Cm💺</p>
                             <label class="form-label H-section-text" for="H">■ Altura de la Banca: </label>
                             <input class="form-control form-control-lg" type="number" id="H" placeholder="45cm"  step="0.01" min="1" maxlength="4" pattern="^  [0-9] +"   oninput="limitarNumero(this, 2)"> 
                             <p id="errorMensajeH" style="color: crimson;"></p>
@@ -89,7 +110,7 @@
         
         
                 <section class="btnvo2">
-                    <button class=" card-button px-3 py-3 mx-auto" type="button" onclick="calculoVo2()">
+                    <button  class=" card-button px-3 py-3 mx-auto" type="button" onclick="calculoVo2()">
                         Calcular Vo2 Máx
                     </button>
                 </section>
@@ -151,7 +172,7 @@
         <section class="citas">
           <blockquote cite="https://www.linkedin.com/in/carlos-alejandro-lopez-alban-a7187956/?originalSubdomain=co">
             Las formulas e información contenida en esta pagina fueron tomadas del 
-            <a class="citas-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/carlos-alejandro-lopez-alban-a7187956/?originalSubdomain=co"><cite>Dr. Carlos Alejandro Lopez Alban</cite></a></blockquote>
+            <a class="text-primary fs-3" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/carlos-alejandro-lopez-alban-a7187956/?originalSubdomain=co"><cite> Dr. Carlos Alejandro Lopez Alban</cite></a></blockquote>
         </section>
 
          <!-- Botón "Volver arriba" -->

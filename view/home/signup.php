@@ -9,16 +9,15 @@
         header("Location:panel_control.php");
     }
 ?>
-
+    <!-- ICONO PUERTA -->
     <div class="fondo-loginSU">
-        <div class="icon">
+        <div class="icon text-center p-3">
             <a href="/login/index.php">
                 <i class="bi bi-door-open-fill door-icon"></i>
             </a>
         </div>
-        <div class="titulo">
-            Crea una cuenta en BodyScan
-        </div>
+        <!-- TITULO -->
+        <div class="text-center fs-4 p-3">Crea una cuenta en BodyScan</div>
 
         <!-- FORMULARIO -->
         <section class="fs-3 container border border-primary rounded p-3 col-12 col-md-6 mb-3">
@@ -37,33 +36,35 @@
                 <input type="email" name="correo" value ="<?= (!empty($_GET['correo'])) ? $_GET['correo'] : "" ?>" class="form-control rounded form-control-lg mb-2 w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
 
-           <div class="mb-3">
+           <div class="mb-3 position-relative">
              <label for="password" class="form-label">Contraseña</label>
                 <!-- EN EL "VALUE" se valida si esta vacio para luego mostrar el mensaje de error si es necesario -->
              <input type="password" name="password" value ="<?= (!empty($_GET['password'])) ? $_GET['password'] : "" ?>" class="form-control rounded form-control-lg mb-2 w-100" id="password">
-             <div class="box-eyeSU">
-                <i id="eyepassword" class="bi bi-eye-fill changePassword box-eye-icon" onclick="mostrarPass('password','eyepassword')" ></i>
-            </div>
-
+                 <div class="box-eyeSU">
+                    <i id="eyepassword" class="bi bi-eye-fill changePassword box-eye-icon" onclick="mostrarPass('password','eyepassword')" ></i>
+                </div>
            </div>
 
-           <div class="mb-3">
+           <div class="mb-3 position-relative">
              <label for="password" class="form-label">Repite la Contraseña</label>
+             <input type="password" name="confirmPass" value ="<?= (!empty($_GET['confirmPass'])) ? $_GET['confirmPass'] : "" ?>" class="form-control rounded form-control-lg mb-2 w-100" id="password2">
                 <div class="box-eyeSU">
                      <i id="eyepassword2" class="bi bi-eye-fill changePassword box-eye-icon" onclick="mostrarPass('password2','eyepassword2')" ></i>
                 </div>
                 <!-- EN EL "VALUE" se valida si esta vacio para luego mostrar el mensaje de error si es necesario -->
-             <input type="password" name="confirmPass" value ="<?= (!empty($_GET['confirmPass'])) ? $_GET['confirmPass'] : "" ?>" class="form-control rounded form-control-lg mb-2 w-100" id="password2">
+             
            </div>
 
            <!-- MUESTRA LOS MENSAJES DE ERROR POR PANTALLA -->
            <?php if(!empty($_GET['error'])): ?>
                 <div id="alertError" style="margin:auto;" class="alert alert-danger mb-2" role="alert">
-                <?= !empty($_GET['error']) ? $_GET['error'] : ""   ?>
+                <?= !empty($_GET['error']) ? $_GET['error'] : "" ?>
                 </div>
              <?php endif; ?>
+            <!-- MUESTRA LOS MENSAJES DE ERROR POR PANTALLA -->
+
             <div class="d-flex align-items-center justify-content-center">
-                <button type="submit" class="btnSU">CREAR CUENTA<button>
+                <button type="submit" class="btnSU">CREAR CUENTA<button>                   
             </div>
         </form>    
     </div>
@@ -71,9 +72,9 @@
     </div>
     </section>
 
-    <section class="container border border-primary rounded p-3 col-12 col-md-6 mb-3">
+    <section class="container border border-primary rounded p-3 col-12 col-md-6 mb-3 text-center fs-4">
         <div class="">
-            ¿Tienes cuenta? <a class="text-primary" href="login.php" style="text-decoration:none">Inicia Sesión</a>
+            ¿Tienes cuenta? <a class="text-primary fs-4" href="login.php" style="text-decoration:none">Inicia Sesión</a>
         </div>
     </section>
         

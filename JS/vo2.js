@@ -18,6 +18,12 @@ function limitarNumero(input, maxLength) {
     }
   };
 
+  // ABRIR MODAL DE ADVERTENCIA 
+
+ 
+
+  // 
+
 
 // PONER UN ALERT ANTES DE DAR ACCESO A LA PAG
 
