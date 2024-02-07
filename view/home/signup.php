@@ -77,8 +77,6 @@
             ¿Tienes cuenta? <a class="text-primary fs-4" href="login.php" style="text-decoration:none">Inicia Sesión</a>
         </div>
     </section>
-        
-    
 
 <?php
     // con este codigo se enlazan los datos de las paginas mencionadas 👇

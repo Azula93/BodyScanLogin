@@ -10,10 +10,10 @@
             <?php if(empty($_SESSION['usuario'])) : ?>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg  bg-trasnparent fixed-top">
-        <div class="container">
+<nav class="navbar-expand-lg  bg-trasnparent navbar-custom">
+        <div class="container p-4">
             <!-- LOGO -->
-          <a class="navbar-brand fs-4 nav-link linkInicio" href="/login/index.php">Body Scan</a>
+          <!-- <a class="navbar-brand fs-4 nav-link linkInicio" href="/login/index.php">Body Scan</a> -->
 
           <!-- TOGGLE Btn -->
           <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -67,10 +67,10 @@
             <?php else : ?>
 
               <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg  bg-trasnparent fixed-top">
+            <nav class="navbar-expand-lg  bg-trasnparent fixed-top navbar-custom">
                     <div class="container">
                         <!-- LOGO -->
-                      <a class="navbar-brand fs-4 nav-link linkInicio" href="/login/view/home/panel_control.php">Body Scan</a>
+                      <!-- <a class="navbar-brand fs-4 nav-link linkInicio" href="/login/view/home/panel_control.php">Body Scan</a> -->
 
                       <!-- TOGGLE Btn -->
                       <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
