@@ -1,17 +1,13 @@
 <?php
- 
     require_once("c://wamp64/www/login/view/head/header.php");
-    
      // si hay un usuario logueado actualmete lo envia al panel de control
      if(empty($_SESSION['usuario'])){
         header("Location:login.php");
     }
-
-  
 ?>
 <!-- ESTA PAGINA PUEDE CAMBIAR O SE PUEDE PONER EL CONTENIDO DE LA PAGINA DE INICIO PARA QUE SEA LA PRIMERA PAGINA QUE SE VEA CUANDO LA PERSONA INICIA SESION 
 Y EN LUGAR DE DAR LA BIENVENIDA CON EL CORREO AGREGAR UN CAMPO "USERNAME" O NOMBRE Y DAR LA BIEVENIDA CON EL NOMBRE DE LA PERSONA -->
-    <h1 class="text-center mt-4 imgPpal welcomeTitle">Bienvenido <?= $_SESSION['usuario'] ?></h1>
+    <h1 class=" d-flex justify-content-center align-items-center p-4">Bienvenido <?= $_SESSION['usuario'] ?></h1>
 
     <main>
         <!-- <section class="imgPpal container d-flex justify-content-center align-items-center">
@@ -20,7 +16,7 @@ Y EN LUGAR DE DAR LA BIENVENIDA CON EL CORREO AGREGAR UN CAMPO "USERNAME" O NOMB
 
         <!-- INICIO cards -->
 
-        <section class="informative-cards">
+        <section class="container d-flex justify-content-center align-items-center">
 
           <div class="container">
             <div class="row">

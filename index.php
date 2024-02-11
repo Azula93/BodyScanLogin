@@ -22,7 +22,7 @@
 
               <div class="carousel-item active" data-bs-interval="10000">
                 <a href="/login/view/PHPpages/medidas.php">
-                <img src="/login/assets/banner.jpg" class="d-block w-100" alt="..."></a>
+                <img src="/login/assets/banner.svg" class="d-block w-100" alt="humanBodyImg"></a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Indices Antropometricos</h5>
                   <p >Realiza la evaluación de los índices antropométricos básicos, como el IMC y el ICC</p>
@@ -30,8 +30,8 @@
               </div>
 
               <div class="carousel-item" data-bs-interval="2000">
-                <a href="http://">
-                <img src="/login/assets/banner2.jpg" class="d-block w-100" alt="..."> </a>
+                <a href="/login/view/home/login.php">
+                <img src="/login/assets/banner(1).jpg" class="d-block w-100" alt="..."> </a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Valoracion Nutricional</h5>
                   <p>Calcula tu tasa metabólica basal y determina tus necesidades nutricionales diarias.</p>
@@ -39,7 +39,7 @@
               </div>
 
               <div class="carousel-item"> 
-                <a href="http://"> 
+                <a href="/login/view/home/login.php"> 
                 <img src="/login/assets/banner3.svg" class="d-block w-100" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Vo2 Máximo</h5>
@@ -59,7 +59,6 @@
         <!-- FIN SLIDER -->
 
         <!-- INICIO cards -->
-
         <!-- <section class="">
           <div class="container mt-4">
             <div class="row">
@@ -130,7 +129,6 @@
     <!-- Fin cards -->
 
     <!-- BLOG -->
-
     <section class="intro" id="introduccion">
           <h2 class="intro-title">¿Qué es el plato saludable de la familia colombiana?</h2>
           <p class="intro-parrafo">Es el ícono de las Guías alimentarias, que nos ayuda a recordar
@@ -199,23 +197,24 @@
                   </blockquote>
                 </section>
         </section>
-          <!-- Botón "Volver arriba" -->
+        
+           <!-- Botón "Volver arriba" -->
       <section class="scroll"> 
         <a id="scroll-to-top" href="#" class="back-to-top" role="button">
          <i class="bi bi-arrow-up-circle-fill"></i></a>
-      </section>
+      </section> 
 
     <!-- FIN BLOG -->
 
 
   <!-- CARDS CUANDO EL USUARIO INICIA SESION TIENE LOS LINKS AL CONTENIDO -->
   <?php else : ?>
-    <main>
+    <!-- <main>
         <section class="imgPpal container d-flex justify-content-center align-items-center">
           <img class=" img img-fluid img-title" src="/login/assets/logoSinFondo.png" alt="">
         </section>
 
-        <!-- INICIO cards -->
+         
 
         <section class="informative-cards">
 
@@ -284,15 +283,15 @@
               </div>
         </div>
         <div>
-        </section>
+        </section>  -->
     <!-- Fin cards -->
     <?php endif ?>
 
-    <!-- BOTON SUBIR -->
+    <!-- BOTON SUBIR
     <section class="scroll"> 
       <a id="scroll-to-top" href="#" class=" back-to-top d-block d-lg-none" role="button">
         <i class="bi bi-arrow-up-circle-fill"></i></a>
-    </section>
+    </section> -->
 
 <?php
     // con este codigo se enlazan los datos de las paginas mencionadas 👇

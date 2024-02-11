@@ -8,7 +8,7 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.fontFamily": "'Victor Mono', 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Noctis Bordo",
+    "workbench.colorTheme": "Ayu Dark Bordered",
     "window.zoomLevel": 1,
     "php.validate.executablePath": "C:/wamp64/bin/php/php8.2.0/php.exe",
     "liveSassCompile.settings.autoprefix": [],

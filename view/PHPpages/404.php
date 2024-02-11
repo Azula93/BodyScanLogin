@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/sass/style.css">
+    <link rel="stylesheet" href="\login\css\style.css?a=<?php echo(rand()); ?>" type="text/css">
     <title>404</title>
 </head>
 <body>
@@ -14,8 +14,8 @@
           <p>404</p>
           404
         </h1>
-        <a href="/Pages/pagInicio.html" class="btn">get me out of here</a>
+        <a href="/login/view/home/panel_control.php" class="btn">Get me out of here</a>
       </section>
-      <script src="/JS/404.js"></script>
+      <!-- <script src="/JS/404.js"></script> -->
 </body>
 </html>
