@@ -43,11 +43,11 @@
 
           <div class="navbar-collapse justify-content-end">
             <li class=" nav-item mx-4">
-              <a class="button fs-4" href="/login/view/home/login.php">Inicia Sesión</a>
+              <a class="boton fs-4" href="/login/view/home/login.php">Inicia Sesión</a>
             </li>
 
             <li class=" nav-item mx-4">
-              <a class="button fs-4" href="/login/view/home/signup.php">Regístrate</a>
+              <a class="boton fs-4" href="/login/view/home/signup.php">Regístrate</a>
             </li>
           </div>
         </ul> 

@@ -1,72 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap");
-.button {
-  position: relative;
-  padding: 10px 22px;
-  border-radius: 6px;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  background-color: #7d2ae8;
-  transition: all 0.2s ease;
-}
-
-.button:active {
-  transform: scale(0.96);
-}
-
-.button:before,
-.button:after {
-  position: absolute;
-  content: "";
-  width: 150%;
-  left: 50%;
-  height: 100%;
-  transform: translateX(-50%);
-  z-index: -1000;
-  background-repeat: no-repeat;
-}
-
-.button:hover:before {
-  top: -70%;
-  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%);
-  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
-  background-position: 50% 120%;
-  animation: greentopBubbles 0.6s ease;
-}
-
-@keyframes greentopBubbles {
-  0% {
-    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
-  }
-  50% {
-    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
-  }
-  100% {
-    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
-    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-  }
-}
-.button:hover::after {
-  bottom: -70%;
-  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%);
-  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
-  background-position: 50% 0%;
-  animation: greenbottomBubbles 0.6s ease;
-}
-
-@keyframes greenbottomBubbles {
-  0% {
-    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
-  }
-  50% {
-    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
-  }
-  100% {
-    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
-    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-  }
-}
 .navbar-custom {
   background: linear-gradient(to right, #0077C2, #00BFFF);
 }
@@ -84,22 +17,69 @@
     backdrop-filter: blur(10px);
   }
 }
+.titlePrincipal {
+  font-size: 44px;
+  color: #0077C2;
+  font-weight: 800;
+}
+
 .ImcCalculo-subtitle {
   font-size: 40px;
   color: #59a5f5;
   font-weight: 600;
-  padding: 0.625rem;
-  text-align: center;
-  left: 855px;
-  position: relative;
 }
 
 .ImcTitle {
   color: #0077C2;
-  font-size: 40px;
   font-weight: 800;
-  padding: 2.625rem;
+}
+
+.btnImc1 {
   position: relative;
+  background: #fff; /* color de fondo */
+  color: #0077C2; /* color de fuente */
+  border: 2px solid #0077C2; /* tamaño y color de borde */
+  padding: 18px 10px;
+  border-radius: 6px; /* redondear bordes */
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  font-weight: 600;
+}
+.btnImc1:hover {
+  color: #fff; /* color de fuente hover */
+}
+.btnImc1::after {
+  content: "";
+  background: #0077C2; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 8px 10px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btnImc1:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.IccCalculo-subtitle {
+  color: #59a5f5;
+  font-weight: 600;
+}
+
+.IccTitle {
+  color: #0077C2;
+  font-weight: 800;
 }
 
 .back-to-top {
@@ -121,28 +101,10 @@
   p {
     text-align: justify;
   }
-  .indicesAntrop {
-    font-size: 24px;
-  }
-  .titlePrincipal {
-    font-size: 44px;
-    color: #0077C2;
-    margin-top: 5.875rem;
-    text-align: center;
-    font-weight: 800;
-  }
   .imgPpal {
     position: relative;
     bottom: 5.625rem;
     height: 33.688rem;
-  }
-  .ImcTitle {
-    color: #0077C2;
-    font-size: 40px;
-    font-weight: 800;
-    padding: 2.625rem;
-    position: relative;
-    left: 1044px;
   }
   .imcError {
     display: flex;
@@ -182,29 +144,11 @@
     font-size: 2rem;
     font-weight: 600;
   }
-  .datosImc {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3.875rem;
-    left: 46rem;
-    position: relative;
-    bottom: 15px;
-    padding: 10px;
-  }
   .imcBad {
     position: relative;
     width: 350px;
     height: 350px;
     top: -38px;
-  }
-  .imcCalculo {
-    margin-top: 12px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    right: 290px;
-    position: relative;
   }
   .imcTexto {
     font-size: 24px;
@@ -213,52 +157,6 @@
     left: 572px;
     position: relative;
     line-height: 1.8;
-  }
-  .talla-section {
-    padding: 0.625rem;
-    font-weight: 600;
-  }
-  .peso-section {
-    padding: 0.625rem;
-    font-weight: 600;
-  }
-  .btnImc1 {
-    position: relative;
-    left: 794px;
-    background: #fff; /* color de fondo */
-    color: #0077C2; /* color de fuente */
-    border: 2px solid #0077C2; /* tamaño y color de borde */
-    padding: 18px 10px;
-    border-radius: 6px; /* redondear bordes */
-    z-index: 1;
-    overflow: hidden;
-    display: inline-block;
-    font-weight: 600;
-  }
-  .btnImc1:hover {
-    color: #fff; /* color de fuente hover */
-  }
-  .btnImc1::after {
-    content: "";
-    background: #0077C2; /* color de fondo hover */
-    position: absolute;
-    z-index: -1;
-    padding: 8px 10px;
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: -100%;
-    right: 100%;
-    -webkit-transition: all 0.35s;
-    transition: all 0.35s;
-  }
-  .btnImc1:hover::after {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    -webkit-transition: all 0.35s;
-    transition: all 0.35s;
   }
   .resultadoImc-section {
     position: relative;
@@ -274,37 +172,15 @@
     text-align: center;
     line-height: 1.5;
   }
-  .textoImcResult {
-    font-size: 34px;
-  }
   .seccionRiegosImc {
     position: relative;
     top: 500px;
-  }
-  .IccTitle {
-    color: #0077C2;
-    position: relative;
-    left: 441px;
-    font-size: 40px;
-    padding: 3.625rem;
-    font-weight: 800;
-    text-align: center;
-    top: 12px;
   }
   .IccRadioBtn {
     display: flex;
     padding: 12px;
     flex-direction: column;
     margin: 18px;
-  }
-  .IccCalculo-subtitle {
-    color: #59a5f5;
-    font-weight: 600;
-    padding: 0.625rem;
-    margin-bottom: 38px;
-    font-size: 40px;
-    left: 855px;
-    position: relative;
   }
   .Rbtn {
     line-height: 1.9em;
@@ -318,25 +194,9 @@
     display: flex;
     justify-content: center;
   }
-  .IccCalculo {
-    position: relative;
-    top: 90px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-  }
   .numeroIcc {
     position: relative;
     text-align: center;
-  }
-  .IccTexto {
-    width: 70%;
-    left: 327px;
-    position: relative;
-    line-height: 1.8;
-    text-align: justify;
-    font-size: 24px;
   }
   .datosIcc {
     display: flex;
@@ -345,9 +205,6 @@
     position: relative;
     margin: 39px 0px 135px 0px;
     bottom: 64px;
-  }
-  .datosIcc-parrafo {
-    font-size: 30px;
   }
   .resultadoIcc-section {
     column-count: 3;
@@ -409,20 +266,10 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
-  .iccbtn-section {
-    display: flex;
-    position: relative;
-    left: 484px;
-    bottom: 172px;
-  }
 }
 @media (max-width: 576px) {
   main {
     overflow: hidden;
-  }
-  .imcCalculo {
-    position: relative;
-    right: 580px;
   }
   .imgPpal {
     position: relative;
@@ -433,23 +280,9 @@
     font-size: 26px;
     margin-top: 1.875rem;
   }
-  .ImcTitle {
-    font-size: 24px;
-    position: relative;
-    bottom: 36px;
-    left: 613px;
-  }
   .imcTexto {
     font-size: 16px;
     width: 100%;
-  }
-  .datosImc {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    bottom: 72px;
-    margin: 9px 10px 10px 10px;
-    left: 600px;
   }
   .parrafoImc {
     display: flex;
@@ -486,45 +319,9 @@
     left: -28px;
     margin: 64px 30px 0px 13px;
   }
-  .IccCalculo {
-    margin-top: 30px;
-    width: 100%;
-    padding: 30px;
-    position: relative;
-    right: 42px;
-    bottom: 40px;
-  }
-  .IccCalculo-subtitle {
-    position: initial;
-    margin: -110px 0 0 120px;
-    font-size: 24px;
-    text-align: center;
-  }
-  .IccTexto {
-    width: 100%;
-    left: -80px;
-    margin: 30px;
-    text-align: justify;
-    font-size: 16px;
-  }
   .datosIcc {
     position: relative;
     left: 12px;
-  }
-  .IccTitle {
-    position: relative;
-    left: -112px;
-    font-size: 30px;
-  }
-  .datosIcc-parrafo {
-    display: flex;
-    position: relative;
-    padding: 10px;
-    margin: 10px 12px 20px -3px;
-    font-size: 20px;
-    justify-content: center;
-    right: 100px;
-    bottom: 28px;
   }
   .perimetros-section {
     display: flex;
@@ -558,13 +355,6 @@
     margin: -19px 163px 20px -284px;
     left: 222px;
   }
-  .iccbtn-section {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 18px;
-    bottom: 300px;
-  }
   .Rbtn {
     padding: 8px;
   }
@@ -592,9 +382,6 @@
   }
   p {
     text-align: center;
-  }
-  .indicesAntrop {
-    font-size: 16px;
   }
   .titlePrincipal {
     font-size: 20px;
@@ -2291,6 +2078,40 @@ body {
     left: 0.8rem;
   }
 }
+.boton {
+  color: #fff !important;
+  padding: 14px 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #FFFFF0;
+}
+.boton:hover {
+  border-radius: 12px;
+  padding-right: 28px;
+  padding-left: 12px;
+  color: #333333 !important;
+}
+.boton:hover::after {
+  opacity: 1;
+  right: 10px;
+}
+.boton::after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  font-size: 22px;
+  line-height: 55px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+  color: #001011;
+}
+
 * {
   margin: 0;
   padding: 0;

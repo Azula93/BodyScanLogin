@@ -44,32 +44,29 @@ const calculoIcc = () =>{
 
       // CASOS MUJERES 
       case formulaIcc < 0.85 && Generoseleccionado === "mujer":
-        resultadoIcc  = `Tu ICC es <b> ${formulaIcc} </b> Esto se clasifica como:<p class="textoIccResult text-success"><b> SIN RIESGO CARDIOVASCULAR</b></p> <img class="imagenMujerOk" src="${imagenMujerOk}" alt="ImagenOK">`;
+        resultadoIcc  = `Tu ICC es <b> ${formulaIcc} </b> Esto se clasifica como:<p class="pb-4 fs-1 text-success"><b> SIN RIESGO CARDIOVASCULAR</b></p> <img class="imagenMujerOk" src="${imagenMujerOk}" alt="ImagenOK">`;
         break;
         
       case formulaIcc  > 0.85 && Generoseleccionado === "mujer":
-        resultadoIcc  = `Tu ICC es <b> ${formulaIcc} </b> Esto se clasifica como: <p class="textoIccResult text-danger"><b> CON RIESGO CARDIOVASCULAR</b></p> <img class="imagenMujerbad" src="${imagenMujerbad}" alt="Imagenbad">`;
+        resultadoIcc  = `Tu ICC es <b> ${formulaIcc} </b> Esto se clasifica como: <p class="pb-4 fs-1 text-danger"><b> CON RIESGO CARDIOVASCULAR</b></p> <img class="imagenMujerbad" src="${imagenMujerbad}" alt="Imagenbad">`;
         break;
 
       // CASOS HOMBRES
       case formulaIcc < 0.94 && Generoseleccionado === "hombre":
-        resultadoIcc  = `Tu ICC es <b> ${formulaIcc} </b> Esto se clasifica como: <p class="textoIccResult text-success"> <b>SIN RIESGO CARDIOVASCULAR </b></p> <img class="imagenHombreOk" src="${imagenHombreOk}" alt="ImagenOK">`;
+        resultadoIcc  = `Tu ICC es <b> ${formulaIcc} </b> Esto se clasifica como: <p class="pb-4 fs-1 text-success"> <b>SIN RIESGO CARDIOVASCULAR </b></p> <img class="imagenHombreOk" src="${imagenHombreOk}" alt="ImagenOK">`;
           break;  
 
       case formulaIcc  > 0.94 && Generoseleccionado === "hombre":
-        resultadoIcc  = `Tu ICC es <b> ${formulaIcc} </b> Esto se clasifica como: <p class="textoIccResult text-danger"><b> CON RIESGO CARDIOVASCULAR </b></p> <img class="imagenHombreBad" src="${imagenHombreBad}" alt="Imagenbad">`;
+        resultadoIcc  = `Tu ICC es <b> ${formulaIcc} </b> Esto se clasifica como: <p class="pb-4 fs-1 text-danger"><b> CON RIESGO CARDIOVASCULAR </b></p> <img class="imagenHombreBad" src="${imagenHombreBad}" alt="Imagenbad">`;
           break;
 
       default:
-        resultadoIcc = `<p class="errorImc text-danger">ERROR! <br> Verifica que hayas ingresado los datos de manera correcta</b></p> <img class="imcError" src="${iccimgError}" alt="ImagenOK">`
+        resultadoIcc = `<p class="pt-3 fs-3 fw-bold text-danger">ERROR! <br> Verifica que hayas ingresado los datos de manera correcta</b></p> <img class="img-fluid w-50 text-center" src="${iccimgError}" alt="ImagenOK">`
 
 }
-  document.getElementById("resultIcc").innerHTML = resultadoIcc;
+  document.getElementById("resultadoIcc").innerHTML = resultadoIcc;
   document.getElementById("errorIcc").innerHTML = errorIcc;
 }
-
-
-
 
 // let usuario_id = localStorage.getItem('usuario_id');
 // // Crear un objeto con los datos que quieres enviar al servidor

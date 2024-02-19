@@ -34,31 +34,31 @@ const calculoImc = () =>{
     switch (true) {
 
       case formulaImc < 18.5:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como:<p class="textoImcResult text-warning"> <b>BAJO PESO</b></p> <img class="imclow" src="${imclow}" alt="imclow">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como:<p class="pb-4 fs-1 text-warning"> <b>BAJO PESO</b></p> <img class="img-fluid w-50 text-center" src="${imclow}" alt="imclow">`;
         break;
         
       case formulaImc  >= 18.5 && formulaImc <= 24.9:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-success"> <b>PESO NORMAL</b> </p> <img class="imcOK" src="${imcOK}" alt="ImagenOK">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="pb-4 fs-1 text-success"> <b>PESO NORMAL</b> </p> <img class="img-fluid w-50 text-center" src="${imcOK}" alt="ImagenOK">`;
         break;
         
       case formulaImc  >= 25 && formulaImc <= 29.9:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-warning"><b>SOBREPESO</b></p> <img class="imcBad" src="${imcBad}" alt="imcBad">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="pb-4 fs-1 text-warning"><b>SOBREPESO</b></p> <img class="img-fluid w-50 text-center" src="${imcBad}" alt="imcBad">`;
         break;
 
       case formulaImc  >= 30 && formulaImc <= 34.9:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como:<p class="textoImcResult text-danger"> <b>OBESIDAD GRADO I</b> </p><img class="imcBad" src="${imcBad}" alt="imcBad">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como:<p class="pb-4 fs-1 text-danger"> <b>OBESIDAD GRADO I</b> </p><img class="img-fluid w-50 text-center" src="${imcBad}" alt="imcBad">`;
         break;
         
       case formulaImc  >= 35 && formulaImc <= 39.9:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-danger"><b>OBESIDAD GRADO II</b></p> <img class="imcBad" src="${imcBad}" alt="imcBad">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="pb-4 fs-1 text-danger"><b>OBESIDAD GRADO II</b></p> <img class="img-fluid w-50 text-center" src="${imcBad}" alt="imcBad">`;
         break;
   
       case formulaImc  >= 40:
-        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="textoImcResult text-danger"> <b> OBESIDAD GRADO III</b></p> <img class="imcBad" src="${imcBad}" alt="imcBad">`;
+        resultadoImc  = `Tu IMC es <b> ${formulaImc} </b> Esto se clasifica como: <p class="pb-4 fs-1 text-danger"> <b> OBESIDAD GRADO III</b></p> <img class="img-fluid w-50 text-center" src="${imcBad}" alt="imcBad">`;
         break;
 
       default:
-        resultadoImc = `<p class="errorImc text-danger"><b>ERROR! <br> Ingresa los datos de manera correcta (talla en metros: 1.70 y peso en kg: 60)</br></p> <img class="imcError" src="${imcError}" alt="imcError">`
+        resultadoImc = `<p class="pt-3 fs-3 fw-bold text-danger"><b>ERROR! <br> Ingresa los datos de manera correcta [talla en metros: 1.70 y peso en kg: 60]</br></p> <img class="img-fluid w-50 text-center" src="${imcError}" alt="imcError">`
         
 }
 
