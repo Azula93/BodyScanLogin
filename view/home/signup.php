@@ -17,10 +17,10 @@
             </a>
         </div>
         <!-- TITULO -->
-        <div class="text-center fs-4 p-3">Crea una cuenta en BodyScan</div>
+        <div class="text-center fs-3 p-3">Crea una cuenta en BodyScan</div>
 
         <!-- FORMULARIO -->
-        <section class="fs-3 container border border-primary rounded p-3 col-12 col-md-6 mb-3">
+        <section class="fs-3 container border border-primary rounded p-3 col-12 col-md-6 mb-2">
             <div class="row justify-content-center">
                 <div class="col-sm-10 col-md-10">
                     <form action="store.php" method="POST" class="" autocomplete ="off" >

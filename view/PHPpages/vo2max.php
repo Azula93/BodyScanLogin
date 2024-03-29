@@ -3,35 +3,33 @@
     require_once("c://wamp64/www/login/view/head/header.php");
 
 ?>
-
     <main>
-        <section class=" vo2-section ">
-                <section class="vo2-section-titulos">
-                    <h1 class="vo2-section-titleone">Vo2 Máximo</h1>
-                    <p class="vo2-section-parrafo">El VO2 máximo o consumo máximo de oxígeno, es la cantidad máxima de oxígeno que una persona puede utilizar durante un ejercicio intenso y sostenido. Se utiliza como medida de la capacidad cardiovascular y la resistencia física de una persona, y es un indicador de su salud y condición física general. Un mayor VO2 máximo generalmente se asocia con una mejor capacidad aeróbica y cardiovascular.</p>
-                    <h2 class="vo2-section-subtitle">Test de la Banca</h2>
-                    <p class="vo2-section-parrafodos">Es una prueba de esfuerzo que mide la capacidad aeróbica del paciente, en donde por medio de formulas puede estimar el VO2 max, los MET´s y la expectativa de vida del paciente. </p>
-
-                    <section class="vo2-section-orden">         
-                        <h5 class="vo2-section-subtitledos">Materiales:</h5>
-                            <ol class="vo2-section-ol">
-                              <li>Banca o escalón, sobre una superficie estable, con altura <b>mínima</b> de 30 cm y <b>máxima</b> de 50 cm</li>
-                              <li>Cinta metrica o metro de modisteria </li>
-                              <li>Cronómetro</li>
-                              <li>Descargar la aplicación Metronomo Beats en el celular.</li>
-                            </ol>
+      <section class=" vo2-section ">
+        <section class="vo2-section-titulos">
+          <h1 class="vo2-section-titleone">Vo2 Máximo</h1>
+            <p class="vo2-section-parrafo">El VO2 máximo o consumo máximo de oxígeno, es la cantidad máxima de oxígeno que una persona puede utilizar durante un ejercicio intenso y sostenido. Se utiliza como medida de la capacidad cardiovascular y la resistencia física de una persona, y es un indicador de su salud y condición física general. Un mayor VO2 máximo generalmente se asocia con una mejor capacidad aeróbica y cardiovascular.</p>
+            <h2 class="vo2-section-subtitle">Test de la Banca</h2>
+              <p class="vo2-section-parrafodos">Es una prueba de esfuerzo que mide la capacidad aeróbica del paciente, en donde por medio de formulas puede estimar el VO2 max, los MET´s y la expectativa de vida del paciente. </p>
+        <section class="vo2-section-orden">         
+          <h5 class="vo2-section-subtitledos">Materiales:</h5>
+            <ol class="vo2-section-ol">
+              <li>Banca o escalón, sobre una superficie estable, con altura <b>mínima</b> de 30 cm y <b>máxima</b> de 50 cm</li>
+              <li>Cinta metrica o metro de modisteria </li>
+              <li>Cronómetro</li>
+              <li>Descargar la aplicación Metronomo Beats en el celular.</li>
+            </ol>
                     
-                    <section class="vo2-section-video ">
-                        <iframe class="vo2-section-video-iframe" width="460" height="215" src="https://www.youtube.com/embed/vEEVDZyIf9s?si=MUX7_6OzyCHMyULn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </section>
-                </section>
+          <section class="vo2-section-video ">
+              <iframe class="vo2-section-video-iframe" width="460" height="215" src="https://www.youtube.com/embed/vEEVDZyIf9s?si=MUX7_6OzyCHMyULn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </section>
+      </section>
 
-        <section class="indicaciones-section">
-          <p class="indicaciones-section-p1"> <span class="indicaciones-section-p2">Indicaciones</span>
-            <ul class="indicaciones-section-ul">
-              <li>El paciente debe haber desayunado, almorzado o cenado con al menos 1 hora de anterioridad</li>
-              <li>El paciente debe ser <b>mayor de 16 años</b> y <b>menor de 55 años</b></li>
-            </ul>
+      <section class="indicaciones-section">
+        <p class="indicaciones-section-p1"> <span class="indicaciones-section-p2">Indicaciones</span>
+          <ul class="indicaciones-section-ul">
+            <li>El paciente debe haber desayunado, almorzado o cenado con al menos 1 hora de anterioridad</li>
+            <li>El paciente debe ser <b>mayor de 16 años</b> y <b>menor de 55 años</b></li>
+          </ul>
         <!-- MODAL -->
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-danger container d-flex justify-content-center     align-items-center      btn-lg fs-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -45,11 +43,10 @@
             <div class="modal-content">
               <div class="modal-header">
                 <h1 class="modal-title fs-5 text-danger" id="exampleModalLabel">Contraindicaciones</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-              <span class="indicaciones-section-p4 text-warning">⚠️ NO PODRÁ REALIZAR EL TEST DE LA BANCA 
-                      SI UD PRESENTA CUALQUIERA DE LAS SIGUIENTES PATOLOGÍAS ⚠️</span> 
+              <span class="indicaciones-section-p4 text-warning">⚠️ NO PODRÁ REALIZAR EL TEST DE LA BANCA SI UD PRESENTA CUALQUIERA DE LAS SIGUIENTES PATOLOGÍAS ⚠️</span> 
                     <ul class="indicaciones-section-ul2">
                       <li>problemas cardiácos </li>
                       <li>problemas coronarios</li>
@@ -79,8 +76,6 @@
           </div>
         </div>
         <!-- FIN MODAL -->
-
-            </p>
         </section>
         </section>
         
@@ -90,54 +85,51 @@
 
                 <section class="ppm-section-inputorder">
                     
-                        <section class="ppm-section-input">
-                            <p class="ppm-section-parrafo">👇 Ingresa en la siguiente casilla los datos de <b>BPM</b>🏃.Los convertiremos a PPM.</p>
-                                <label class="form-label ppm-section-bpm" for="BPM">■ BPM: </label>
-                                <input class="form-control form-control-lg" type="number" id="BPM" placeholder="PPM"  step="0.01" min="1"  maxlength="3"    pattern="^[0-9]+"      oninput="limitarNumero(this, 3)"> 
-                            <p id="errorMensajePPM" style="color: crimson;"></p>
-                        </section>
+                  <section class="ppm-section-input">
+                    <p class="ppm-section-parrafo">👇 Ingresa en la siguiente casilla los datos de <b>BPM</b>🏃.Los convertiremos a PPM.</p>
+                        <label class="form-label ppm-section-bpm" for="BPM">■ BPM: </label>
+                        <input class="form-control form-control-lg" type="number" id="BPM" placeholder="PPM"  step="0.01" min="1"  maxlength="3"    pattern[0-9]+"      oninput="limitarNumero(this, 3)"> 
+                    <p id="errorMensajePPM" style="color: crimson;"></p>
+                </section>
                     
 
-                    <section class="ppm-section-input">
-                        <div class="H-section">
-                            <p class="H-section-parrafo">👇 Ingresa el dato de la altura del banco en Cm💺</p>
-                            <label class="form-label H-section-text" for="H">■ Altura de la Banca: </label>
-                            <input class="form-control form-control-lg" type="number" id="H" placeholder="45cm"  step="0.01" min="1" maxlength="4" pattern="^  [0-9] +"   oninput="limitarNumero(this, 2)"> 
-                            <p id="errorMensajeH" style="color: crimson;"></p>
-                        </div>
-                    </section>
+                <section class="ppm-section-input">
+                  <div class="H-section">
+                      <p class="H-section-parrafo">👇 Ingresa el dato de la altura del banco en Cm💺</p>
+                      <label class="form-label H-section-text" for="H">■ Altura de la Banca:label>
+                      <input class="form-control form-control-lg" type="number" id="placeholder="45cm"  step="0.01" min="1" maxlength="4" pattern="^  [0-+"   oninput="limitarNumero(this, 2)"> 
+                      <p id="errorMensajeH" style="color: crimson;"></p>
+                  </div>
                 </section>
+        </section>
         
-        
-                <section class="btnvo2">
-                    <button  class=" card-button px-3 py-3 mx-auto" type="button" onclick="calculoVo2()">
-                        Calcular Vo2 Máx
-                    </button>
-                </section>
+            <section class="btnvo2">
+                <button  class=" card-button px-3 py-3 mx-auto" type="button" onclick="calculoVo2">
+                    Calcular Vo2 Máx
+                </button>
             </section>
+        </section>
             
-
-           
-            <section class="resultadoVo2-section">
-                 <span>
-                    <p class="resultadoVo2-section-parrafoVo2" > <b>Tu Vo2 Máximo es:</b> </p>
-                    <p class="resultadoVo2-section-resultVo2" id="numVo2"></p>
-                    <div class="resultadoVo2-section-numeroVo2" id="resultadoVo2"> </div>
-                </span> 
-            </section>
-          </section> 
+        <section class="resultadoVo2-section">
+          <span>
+            <p class="resultadoVo2-section-parrafoVo2" > <b>Tu Vo2 Máximo es:</b> </p>
+            <p class="resultadoVo2-section-resultVo2" id="numVo2"></p>
+            <div class="resultadoVo2-section-numeroVo2" id="resultadoVo2"> </div>
+          </span> 
+        </section>
+      </section> 
             <hr>
-            <section class="resultadoMets-section">
-                <span class="resultadoMets-section-span">
-                  <h2 class="resultadoMets-section-title">METS</h2>
-                   <p class="resultadoMets-section-parrafo"> <b>los METs (Metabolic Equivalent of Task) </b> son una medida para cuantificar la intensidad del ejercicio en relación con el consumo de oxígeno 
-                    y el gasto metabólico. <br> </p>
-                    <p class="resultadoMets-section-parrafo2"> <b>Según tu Vo2Máx tus METS son:</b></p>
-                   <p class="resultadoMets-section-resultMets" id="numMets"></p>
-                   <div class="resultadoMets-section-numeroMets" id="resultadoMets"> </div>
-                  </span>
-           </section>
+        <section class="resultadoMets-section">
+          <span class="resultadoMets-section-span">
+            <h2 class="resultadoMets-section-title">METS</h2>
+             <p class="resultadoMets-section-parrafo"> <b>los METs (Metabolic Equivalent of Task) </b> son una medida para cuantificar la intensidad del ejercicio en relación con el consumo de oxígeno 
+              y el gasto metabólico. <br> </p>
+              <p class="resultadoMets-section-parrafo2"> <b>Según tu Vo2Máx tus METS son:</b></p>
+             <p class="resultadoMets-section-resultMets" id="numMets"></p>
+             <div class="resultadoMets-section-numeroMets" id="resultadoMets"> </div>
+            </span>
           </section>
+        </section>
             <hr>
            <section class="expectVida-section">
               <h2 class="expectVida-section-title">EXPECTATIVA DE VIDA</h2>
@@ -166,8 +158,6 @@
             <p class="expectVidaResult-result" id="numexpectVida"></p>
             <div class="expectVidaResult-numeroexpectVida" id="resultadoexpectVida"> </div>
         </section> 
-        
-
 
         <section class="citas">
           <blockquote cite="https://www.linkedin.com/in/carlos-alejandro-lopez-alban-a7187956/?originalSubdomain=co">

@@ -3,19 +3,19 @@
     require_once("c:/wamp64/www/login/view/head/head.php");
  
 ?>
-   <!-- este codigo php sirve para hacer el cambio del navbar segun el usuario es decir esta primera vista es para usuarios que 
-            NO estan logueados, pueden ver el boton de iniciar sesion y registrarse -->
-            <?php if(empty($_SESSION['usuario'])) : ?>
+   <!-- este codigo php sirve para hacer el cambio del navbar segun el usuario es decir esta primera vista es para usuarios que NO estan logueados, pueden ver el boton de iniciar sesion y registrarse -->
+    <?php if(empty($_SESSION['usuario'])) : ?>
 
-<!-- Navbar -->
+<!-- Navbar PARA USUARIOS NO LOGUEADOS-->
 <nav class="navbar-expand-lg  bg-trasnparent navbar-custom">
   <div class="container p-4">
   <!-- LOGO -->
-   <!-- <a class="navbar-brand fs-4 nav-link linkInicio" href="/login/index.php">Body Scan</a> -->
+   <a class="navbar-brand fs-4 nav-link linkInicio" href="/login/index.php">Body Scan</a>
     <!-- TOGGLE Btn -->
-    <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+      </button>
+    
    <!-- SideBar -->
     <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <!-- Sidebar Header -->
@@ -52,8 +52,11 @@
           </div>
         </ul> 
       </div>
+    </div>
+
+      <!-- Navbar PARA USUARIOS LOGUEADOS-->
             <?php else : ?>
-    <!-- Navbar -->
+    
   <nav class="navbar-expand-lg  bg-trasnparent navbar-custom">
     <div class="container p-4">
       <!-- LOGO -->
@@ -62,6 +65,7 @@
       <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
         <!-- SideBar -->
       <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <!-- Sidebar Header -->

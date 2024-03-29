@@ -8,7 +8,7 @@
  inicie en una pag y finalice en otra -->
 </div>
      <!-- Incio FOOTER -->
-     <footer class=" bg-dark pt-5 pb-4 text-center">
+     <footer class="fixed-bottom bg-dark pt-5 pb-4 text-center">
       <div class="container-fluid text-center text-md-start justify-content-lg-between ">
         <div class="row text-center text-md-start">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">

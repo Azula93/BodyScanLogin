@@ -1,37 +1,32 @@
 <?php
     // con este codigo se enlazan los datos de las paginas mencionadas 👇
     require_once("c://wamp64/www/login/view/head/header.php");
-
 ?>
-
      <main>
-
-      <section class="get-section">
-
+      <section class="get-section pb-4">
         <section class="get-section-definicion">
-          <h1 class="get-section-definicion-titulo">¿Qué es el GET?</h1>
-            <p class="get-section-definicion-parrafo"> El gasto energético total (GET) es la cantidad total de energía que una persona gasta en un día típico.
+          <h1 class="get-section-definicion-titulo text-center pt-3 pb-3">¿Qué es el GET?</h1>
+            <p class="text-justify text-center ms-5 me-5 lh-base fs-3 pb-5"> El gasto energético total (GET) es la cantidad total de energía que una persona gasta en un día típico.
             El GET es importante porque proporciona una idea de la cantidad de calorías que una persona necesita consumir
              en un día para mantener su peso actual, perder peso o ganar peso, dependiendo de sus objetivos. 
              El conocimiento del (GET) también es esencial para planificar dietas y programas de ejercicio adecuados para alcanzar metas de salud y estado  físico.</p>
         </section>
       
         <section class="subtitle-get">
-          <h2 class="subtitle-get-h2">Calcula tu GET</h2>
-          <p class="subtitle-get-parrafo">Para calcular tu GET ingresa los siguientes datos:</p>
+          <h2 class="subtitle-get-h2 text-center mt-5 pt-5 pb-3">Calcula tu GET</h2>
+          <p class="fs-3 text-justify pb-5 pt-3">Para calcular tu GET ingresa los siguientes datos:</p>
         </section>
 
         <section class="infoGet">
-
           <section class="GetRadioBtn">
             <div class="GetRadioBtn-1">
               <p class="infoGet-texto"> <b> Selecciona tu Sexo:</b></p>
-                <div class="form-check ">
+                <div class="form-check fs-2">
                     <input class="form-check-input" type="radio" name="genero" value="mujer">
                     <label class="Rbtn form-check-label"> Femenino </label>
                 </div>
 
-                 <div class="form-check">
+                 <div class="form-check fs-2 pb-3 pt-2">
                     <input class="form-check-input" type="radio" name="genero" value="hombre">
                     <label class="Rbtn form-check-label"> Masculino</label>
                  </div>
@@ -111,12 +106,11 @@
 
        <section class="Macro-info">
           <section >
-            <h2 class="Macro-Title">Requerimiento de Macronutrientes Diario </h2>
+            <h2 class="Macro-Title text-center pt-3 pb-3">Requerimiento de Macronutrientes Diario </h2>
           </section>
 
-            <p class="Macro-parrafo"> Ahora que conoces tu GET podrás calcular tu requerimiento de macronutrientes diario en gramos, distribuidos en: 
-              carbohidratos, proteinas y grasas. <br>
-              Selecciona una de las siguientes opciones según sea tu caso:    
+            <p class="Macro-parrafo lh-base"> Ahora que conoces tu GET podrás calcular tu requerimiento de macronutrientes diario en gramos, distribuidos en: 
+              carbohidratos, proteinas y grasas. Selecciona una de las siguientes opciones según sea tu caso:     
             </p>
 
           <section class="DeporteRadioBtn">
@@ -149,7 +143,7 @@
           
 
        <section class="dieta-section">
-          <p class="dieta-section-parrafo">En este 👉 <a class="dieta-section-link" href="/Pages/blog.html">LINK</a> podrás obtener más información acerca de la dieta que debes seguir 🥕 </p>
+          <p class="dieta-section-parrafo">En este 👉 <a class="fs-3 text-primary" href="/Pages/blog.html">LINK</a> podrás obtener más información acerca de la dieta que debes seguir 🥕 </p>
         </section>
       </section>
       </section>

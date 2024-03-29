@@ -114,7 +114,6 @@
                 <i class="bi bi-arrow-up-circle-fill"></i>
             </a>
         </section>
-
     </section>
 </main>
 <!-- FIN Indices antropometricos -->

@@ -209,12 +209,10 @@
 
   <!-- CARDS CUANDO EL USUARIO INICIA SESION TIENE LOS LINKS AL CONTENIDO -->
   <?php else : ?>
-    <!-- <main>
+   <!--  <main>
         <section class="imgPpal container d-flex justify-content-center align-items-center">
           <img class=" img img-fluid img-title" src="/login/assets/logoSinFondo.png" alt="">
         </section>
-
-         
 
         <section class="informative-cards">
 
@@ -234,7 +232,6 @@
                   </div>
                 </div>
               </div>
-
 
               <div class="col-md-3 col-lg-4 mb-4">
                 <div class="card">
@@ -266,7 +263,6 @@
                 </div>
               </div>
 
-
               <div class="col-md-3 col-lg-4 mb-4">
                 <div class="card">
                   <div class="card-image">
@@ -283,9 +279,9 @@
               </div>
         </div>
         <div>
-        </section>  -->
-    <!-- Fin cards -->
-    <?php endif ?>
+        </section>  
+    <?php endif ?> 
+    
 
     <!-- BOTON SUBIR
     <section class="scroll"> 
@@ -296,5 +292,4 @@
 <?php
     // con este codigo se enlazan los datos de las paginas mencionadas 👇
     require_once("c:/wamp64/www/login/view/head/footer.php");
-
 ?>
