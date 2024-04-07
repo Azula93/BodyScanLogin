@@ -95,7 +95,7 @@
 
                 <section class="ppm-section-input">
                   <div class="H-section">
-                      <p class="H-section-parrafo">👇 Ingresa el dato de la altura del banco en Cm💺</p>
+                      <p class="H-section-parrafo">👇 Ingresa el dato de la altura del banco en Cm🪑</p>
                       <label class="form-label H-section-text" for="H">■ Altura de la Banca:label>
                       <input class="form-control form-control-lg" type="number" id="placeholder="45cm"  step="0.01" min="1" maxlength="4" pattern="^  [0-+"   oninput="limitarNumero(this, 2)"> 
                       <p id="errorMensajeH" style="color: crimson;"></p>

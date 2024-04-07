@@ -24,8 +24,8 @@
                 <a href="/login/view/PHPpages/medidas.php">
                 <img src="/login/assets/banner.svg" class="d-block w-100" alt="humanBodyImg"></a>
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Indices Antropometricos</h5>
-                  <p >Realiza la evaluación de los índices antropométricos básicos, como el IMC y el ICC</p>
+                  <h5 class="txtSlider">Indices Antropometricos</h5>
+                  <p class="txtSlider" >Realiza la evaluación de los índices antropométricos básicos, como el IMC y el ICC</p>
                 </div>
               </div>
 
@@ -33,8 +33,8 @@
                 <a href="/login/view/home/login.php">
                 <img src="/login/assets/banner(1).jpg" class="d-block w-100" alt="..."> </a>
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Valoracion Nutricional</h5>
-                  <p>Calcula tu tasa metabólica basal y determina tus necesidades nutricionales diarias.</p>
+                  <h5 class="txtSlider">Valoracion Nutricional</h5>
+                  <p class="txtSlider">Calcula tu tasa metabólica basal y determina tus necesidades nutricionales diarias.</p>
                 </div>
               </div>
 
@@ -42,8 +42,8 @@
                 <a href="/login/view/home/login.php"> 
                 <img src="/login/assets/banner3.svg" class="d-block w-100" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Vo2 Máximo</h5>
-                  <p>Calcula la máxima cantidad de oxígeno que puedes utilizar durante el ejercicio .</p>
+                  <h5 class="txtSlider">Vo2 Máximo</h5>
+                  <p class="txtSlider">Calcula la máxima cantidad de oxígeno que puedes utilizar durante el ejercicio .</p>
                 </div>
               </div>
             </div>
